@@ -275,6 +275,7 @@ params:
     imageUrl: "profile.jpeg"
     imageWidth: 200
     imageHeight: 200  
+    mageTitle: Oyekan Hammed
     buttons:
       - name: Curriculum Vitae
         url: "cv.pdf"
