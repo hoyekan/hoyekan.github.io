@@ -127,38 +127,95 @@
 
 baseURL: "https://hoyekan.github.io/"
 title: "Hammed Oyekan"
+paginate: 20
 theme: "PaperMod"
 languageCode: "en-us"
 
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 2
+
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 3
+
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 4
+
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 5
+      
+    - identifier: gallery
+      name: Gallery
+      url: /gallery/
+      weight: 6
+
+
+
 params:
+  description: "This is the academic website of Hammed Oyekan. I will use this space to share my research, publications, and teaching resources."
+  author: OYEKAN, Hammed
+  # googleAnalyticsID: "G-XXXXX"   # Uncomment & replace if using Google Analytics
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: false
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  ShowRssButtonInSectionTermList: false
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  
   homeInfoParams:
     Title: "👋 Hi, I'm Hammed Oyekan"
     Content: |
       I'm a graduate student in Applied Geophysics with a passion for seismic imaging, full waveform inversion, and computational geophysics. I use this space to share my research, projects, and academic journey.
 
-  profileMode:
-  #   enabled: true
-  #   title: "Hammed Oyekan"
-  #   subtitle: "Applied Geophysics • Seismic Imaging • FWI"
-  #   imageUrl: "picture.jpeg"  # Place your profile photo in `static/`
-  #   imageWidth: 200
-  #   imageHeight: 200
-  #   imageTitle: "Hammed Oyekan"
-
+  coverImageMode:
+    enabled: true
+    imageUrl: "/in_the_name_of_Allah.jpeg"
+    imageWidth: 170
+    imageHeight: 55
+    imageTitle: In the name of Allah
+    
   profileMode:
     enabled: true
     title: "OYEKAN, Hammed"
     subtitle: |
       Welcome to my website! I am an aspiring computational and exploration seismologist/geophysicist. 
-      <br/><br/>
-      I recently received my MSc in Geophysics (December 31, 2024) from King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia, under the supervision of <a href="https://faculty.kfupm.edu.sa/es/ashuhail/" target="_blank" style="color:#8e7bd0">Prof. Abdullatif A. Al-Shuhail</a>.      <br/><br/>
-      My area of interest are:
-          - **Wave propagation** and **theoretical seismology**
-          - **Seismic data analysis**, **imaging**, and **inversion**
-          - **Full-waveform inversion (FWI)**
-          - **Numerical modeling**
-      <br/><br/>
-      I am currently open to collaborations and new opportunities.
+      <br/><br/> I recently received my MSc in Geophysics (December 31, 2024) from King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia, under the supervision of <a href="https://faculty.kfupm.edu.sa/es/ashuhail/" target="_blank" style="color:#8e7bd0">Prof. Abdullatif A. Al-Shuhail</a>. 
+      <br/><br/> My area of interest are: **Wave propagation** , **theoretical seismology** , **Seismic data analysis**, **imaging**, and **inversion** , **Full-waveform inversion (FWI)**, and **Numerical modeling**
+      <br/><br/> I am currently open to collaborations and new opportunities."
 
     imageUrl: "profile.jpeg"  # Place your profile photo in `static/`
     imageWidth: 200
@@ -203,38 +260,6 @@ params:
     icon: favicon.ico
     iconHeight: 18
       
-menu:
-  main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 1
-
-    - identifier: research
-      name: Research
-      url: /research/
-      weight: 2
-
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 3
-
-    - identifier: blog
-      name: Blog
-      url: /blog/
-      weight: 4
-
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 5
-      
-    - identifier: gallery
-      name: Gallery
-      url: /gallery/
-      weight: 6
-
 outputs:
   home:
     - HTML
