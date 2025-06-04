@@ -6,6 +6,13 @@ description: "My mailing and office addresses at King Fahd University of Petrole
 
 ---
 
+#### Mailing address
+
+Department of Economics  <br>
+Purdue University <br>
+403 Mitch Daniels Blvd<br>
+West Lafayette, IN 47906
+
 ---
 
 #### Office address
