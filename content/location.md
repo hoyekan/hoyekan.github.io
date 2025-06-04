@@ -1,6 +1,6 @@
 ---
 title: "Location"
-date: 2024-05-08
+date: 2025-06-01
 hidemeta: true
 description: "My mailing and office addresses at King Fahd University of Petroleum and Minerals (KFUPM)."
 
@@ -10,7 +10,7 @@ description: "My mailing and office addresses at King Fahd University of Petrole
 
 #### Office address
 
-Room 1144  
+Room 1144, Building 76
 College of Petroleum and Geosciences (CPG)  
 King Fahd University of Petroleum and Minerals (KFUPM)
 
