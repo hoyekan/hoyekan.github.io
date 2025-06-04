@@ -82,12 +82,14 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:oyekan.geophysics@gmail.com
-        - name: Zoom
-          url: https://www.zoom.com/
-        - name: Location
-          url: location/
+        # - name: Zoom
+        #   url: https://www.zoom.com/
+        # - name: Location
+        #   url: location/
         - name: Office Hours
           url: officehours/
+        - name: linkedin
+          url: "https://www.linkedin.com/in/hammed-oyekan"
         - name: Google Scholar
           url: https://scholar.google.com/
         - name: GitHub
@@ -98,8 +100,6 @@ params:
           # url: https://www.youtube.com/
         # - name: Twitter
           # url: https://x.com/
-        # - name: Bluesky
-          # url: https://bsky.app/
 
     assets:
         disableScrollBarStyle: true
