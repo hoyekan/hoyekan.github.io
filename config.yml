@@ -148,8 +148,8 @@ params:
     title: "Hammed Oyekan"
     subtitle: "Applied Geophysics • Seismic Imaging • FWI"
     imageUrl: "profile.jpeg"  # Place your profile photo in `static/`
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: 200
+    imageHeight: 200
     imageTitle: "Hammed Oyekan"
     buttons:
       - name: Curriculum Vitae
@@ -165,11 +165,11 @@ params:
     - name: github
       url: "https://github.com/hoyekan"
     - name: linkedin
-      url: "https://www.linkedin.com/in/hammed-oyekan"
+      url: "https://www.linkedin.com/in/oyekan-hammed"
     - name: email
-      url: "mailto:hoyekan@domain.com"
+      url: "mailto:oyekan.geophysics@gmail.com"
     - name: googlescholar
-      url: "https://scholar.google.com/citations?user=YOUR_ID"  # Replace with your real Scholar link
+      url: "https://scholar.google.com/"  # Replace with your real Scholar link
 
 menu:
   main:
