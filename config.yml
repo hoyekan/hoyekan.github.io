@@ -161,6 +161,8 @@ params:
   socialIcons:
     - name: email
       url: "mailto:oyekan.geophysics@gmail.com"
+    # - name: Location
+      # url: location/
     # - name: Office Hours
       # url: officehours/
     - name: googlescholar
