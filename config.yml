@@ -1,4 +1,4 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
+baseURL: "https://hoyekan.github.io/"  # Update this to your actual domain
 title: OYEKAN, Hammed Ajiboye
 theme: PaperMod
 
@@ -29,8 +29,9 @@ menu:
           weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    # description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: "This website hosts Hammed Ajiboye Oyekan's research papers, books, course materials, datasets, and contact information."
+    author: OYEKAN, Hammed Ajiboye
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -55,8 +56,9 @@ params:
     profileMode:
           enabled: true
           title: OYEKAN, Hammed A.
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          # subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          subtitle: "Graduate student in Applied Geophysics with a focus on full waveform inversion and complex subsurface imaging."
+          imageUrl: "picture.jpeg"     # Replace with the correct path if needed
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -92,12 +94,12 @@ params:
           url: https://github.com/hoyekan
         - name: Substack
           url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+        # - name: YouTube
+          # url: https://www.youtube.com/@pmichaillat
+        # - name: Twitter
+          # url: https://x.com/pmichaillat
+        # - name: Bluesky
+          # url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +107,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "OYEKAN, Hammed A."
       icon: favicon.ico
       iconHeight: 18
 
