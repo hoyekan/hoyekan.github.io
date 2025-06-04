@@ -8,15 +8,6 @@ description: "Professor Dr von Igelfeld's mailing and office addresses at the In
 
 ---
 
-#### Mailing address
-
-Professor Dr von Igelfeld  
-Institute of Romance Philology  
-University of Regensburg  
-Regensburg, Germany
-
----
-
 #### Office address
 
 Room 133  
