@@ -2,7 +2,7 @@
 title: "Location"
 date: 2024-05-08
 hidemeta: true
-description: "Professor Dr von Igelfeld's mailing and office addresses at the Institute of Romance Philology."
+description: "My mailing and office addresses at King Fahd University of Petroleum and Minerals (KFUPM)."
 
 ---
 
@@ -10,9 +10,9 @@ description: "Professor Dr von Igelfeld's mailing and office addresses at the In
 
 #### Office address
 
-Room 133  
-Institute of Romance Philology  
-University of Regensburg
+Room 1144  
+College of Petroleum and Geosciences (CPG)  
+King Fahd University of Petroleum and Minerals (KFUPM)
 
 ---
 
