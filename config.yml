@@ -163,15 +163,15 @@ params:
       url: "mailto:oyekan.geophysics@gmail.com"
     # - name: Office Hours
       # url: officehours/
-    - name: linkedin
-      url: "https://www.linkedin.com/in/oyekan-hammed"
     - name: googlescholar
       url: "https://scholar.google.com/"  # Replace with your real Scholar link
     - name: researchgate
       url: "https://www.researchgate.net/profile/Hammed-Oyekan/research"  # Replace with your real Scholar link
     - name: github
       url: "https://github.com/hoyekan"
-    
+    - name: linkedin
+      url: "https://www.linkedin.com/in/oyekan-hammed"
+      
 menu:
   main:
     - identifier: about
