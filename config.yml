@@ -30,9 +30,9 @@ menu:
 
 params:
     # description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    description: "This website hosts Hammed Ajiboye Oyekan's research papers, books, course materials, datasets, and contact information."
+    description: "This website hosts Hammed Oyekan's research papers, books, course materials, datasets, and contact information."
     author: OYEKAN, Hammed Ajiboye
-    # googleAnalyticsID: "G-XXXXX"
+    # googleAnalyticsID: "G-XXXXX"   # Uncomment & replace if using Google Analytics
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -58,7 +58,7 @@ params:
           title: OYEKAN, Hammed A.
           # subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
           subtitle: "Graduate student in Applied Geophysics with a focus on full waveform inversion and complex subsurface imaging."
-          imageUrl: "picture.jpeg"     # Replace with the correct path if needed
+          imageUrl: "picture.jpeg"     # Replace with the correct path if needed and  ensure this file exists in /static/
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -83,23 +83,23 @@ params:
         - name: Email
           url: mailto:oyekan.geophysics@gmail.com
         - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
+          url: https://www.zoom.com/
         - name: Location
           url: location/
         - name: Office Hours
           url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/
         - name: GitHub
           url: https://github.com/hoyekan
-        - name: Substack
-          url: https://pmichaillat.substack.com
+        # - name: Substack
+          # url: https://www.substack.com
         # - name: YouTube
-          # url: https://www.youtube.com/@pmichaillat
+          # url: https://www.youtube.com/
         # - name: Twitter
-          # url: https://x.com/pmichaillat
+          # url: https://x.com/
         # - name: Bluesky
-          # url: https://bsky.app/profile/pmichaillat.bsky.social
+          # url: https://bsky.app/
 
     assets:
         disableScrollBarStyle: true
