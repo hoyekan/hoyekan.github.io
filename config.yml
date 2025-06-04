@@ -159,11 +159,10 @@ params:
       - **Numerical modeling**
 
       I am currently open to collaborations and new opportunities.
-    imageUrl: "profile.jpg"
-    imageWidth: 200
-    imageHeight: 200
 
-    
+    imageUrl: "profile.jpeg"  # Place your profile photo in `static/`
+    imageWidth: 200
+    imageHeight: 200  
     buttons:
       - name: Curriculum Vitae
         url: "cv.pdf"
