@@ -141,7 +141,7 @@ params:
     enabled: true
     title: "Hammed Oyekan"
     subtitle: "Applied Geophysics • Seismic Imaging • FWI"
-    imageUrl: "profile.jpeg"  # Place your profile photo in `static/`
+    imageUrl: "picture.jpeg"  # Place your profile photo in `static/`
     imageWidth: 200
     imageHeight: 200
     imageTitle: "Hammed Oyekan"
@@ -156,15 +156,17 @@ params:
         url: "/contact/"
 
   socialIcons:
-    - name: github
-      url: "https://github.com/hoyekan"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/oyekan-hammed"
     - name: email
       url: "mailto:oyekan.geophysics@gmail.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/oyekan-hammed"
     - name: googlescholar
       url: "https://scholar.google.com/"  # Replace with your real Scholar link
-
+    - name: researchgate
+      url: "https://www.researchgate.net/profile/Hammed-Oyekan?ev=hdr_xprf"  # Replace with your real Scholar link
+    - name: github
+      url: "https://github.com/hoyekan"
+    
 menu:
   main:
     - identifier: about
