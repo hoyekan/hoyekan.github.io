@@ -1,124 +1,214 @@
-baseURL: "https://hoyekan.github.io/"  # Update this to your actual domain
-title: OYEKAN, Hammed Ajiboye
-theme: PaperMod
+# baseURL: "https://hoyekan.github.io/"  # Update this to your actual domain
+# title: OYEKAN, Hammed Ajiboye
+# theme: PaperMod
+# languageCode: "en-us"
+
+# enableInlineShortcodes: true
+# enableRobotsTXT: true
+# pagination:
+#   pagerSize: 20
+
+# taxonomies:
+#     tag: tags
+
+# menu:
+#     main:
+#         - name: Books
+#           url: books/
+#           weight: 5 
+#         - name: Publications
+#           url: publications/
+#           weight: 2
+#         - name: Courses
+#           url: courses/
+#           weight: 3
+#         - name: Data
+#           url: data/
+#           weight: 4 
+#         - name: News
+#           url: news/
+#           weight: 6
+
+# params:
+#     # description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
+#     description: "This website hosts Hammed Oyekan's research papers, books, course materials, datasets, and contact information."
+#     author: OYEKAN, Hammed Ajiboye
+#     # googleAnalyticsID: "G-XXXXX"   # Uncomment & replace if using Google Analytics
+#     DateFormat: "January 2006"
+#     defaultTheme: light
+#     hideFooter: false
+#     disableThemeToggle: true
+#     ShowShareButtons: false
+#     ShowReadingTime: false
+#     disableSpecial1stPost: true
+#     disableAnchoredHeadings: true
+#     ShowPostNavLinks: false
+#     ShowBreadCrumbs: false
+#     ShowCodeCopyButtons: true
+#     ShowAllPagesInArchive: false
+#     MainSections: ["books","courses","publications","data"]
+#     ShowToc: false
+#     disableScrollToTop: true
+#     TocOpen: true
+#     ShowWordCount: false
+#     UseHugoToc: true
+#     comments: false
+#     math: true
+#     profileMode:
+#           enabled: true
+#           title: OYEKAN, Hammed A.
+#           subtitle: "Graduate student in Applied Geophysics with a focus on full waveform inversion and complex subsurface imaging."
+#           imageUrl: "picture.jpeg"     # Replace with the correct path if needed and  ensure this file exists in /static/
+#           imageWidth: 120
+#           imageHeight: 120
+#           buttons:
+#             - name: Publications
+#               url: publications/
+#             - name: Data
+#               url: data/
+#             - name: Books
+#               url: books/
+#             - name: Courses
+#               url: courses/
+#             - name: Tags
+#               url: tags/
+#             - name: Archive
+#               url: archive/
+#             - name: News
+#               url: news/
+
+#     socialIcons:
+#         - name: CV
+#           url: cv.pdf
+#         - name: Email
+#           url: mailto:oyekan.geophysics@gmail.com
+#         # - name: Zoom
+#         #   url: https://www.zoom.com/
+#         # - name: Location
+#         #   url: location/
+#         - name: Office Hours
+#           url: officehours/
+#         - name: linkedin
+#           url: "https://www.linkedin.com/in/oyekan-hammed"
+#         - name: Google Scholar
+#           url: https://scholar.google.com/
+#         - name: GitHub
+#           url: https://github.com/hoyekan
+#         # - name: Substack
+#           # url: https://www.substack.com
+#         # - name: YouTube
+#           # url: https://www.youtube.com/
+#         # - name: Twitter
+#           # url: https://x.com/
+
+#     assets:
+#         disableScrollBarStyle: true
+#     cover:
+#         hiddenInList: false
+#         hiddenInSingle: true
+#     label:
+#       text: "OYEKAN, Hammed A."
+#       icon: favicon.ico
+#       iconHeight: 18
+
+# markup:
+#     goldmark:
+#         renderer:
+#             unsafe: true
+#     highlight:
+#         guessSyntax: true
+#         style: autumn 
+#     tableOfContents:
+#         endLevel: 2
+#         ordered: false
+#         startLevel: 2
+
+
+
+
+
+
+
+
+
+
+baseURL: "https://hoyekan.github.io/"
+title: "Hammed Oyekan"
+theme: "PaperMod"
 languageCode: "en-us"
 
-enableInlineShortcodes: true
-enableRobotsTXT: true
-pagination:
-  pagerSize: 20
+params:
+  homeInfoParams:
+    Title: "👋 Hi, I'm Hammed Oyekan"
+    Content: |
+      I'm a graduate student in Applied Geophysics with a passion for seismic imaging, full waveform inversion, and computational geophysics. I use this space to share my research, projects, and academic journey.
 
-taxonomies:
-    tag: tags
+  profileMode:
+    enabled: true
+    title: "Hammed Oyekan"
+    subtitle: "Applied Geophysics • Seismic Imaging • FWI"
+    imageUrl: "profile.jpeg"  # Place your profile photo in `static/`
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Hammed Oyekan"
+    buttons:
+      - name: Curriculum Vitae
+        url: "cv.pdf"
+      - name: Research
+        url: "/research/"
+      - name: Projects
+        url: "/projects/"
+      - name: Contact
+        url: "/contact/"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/hoyekan"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/hammed-oyekan"
+    - name: email
+      url: "mailto:hoyekan@domain.com"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=YOUR_ID"  # Replace with your real Scholar link
 
 menu:
-    main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Publications
-          url: publications/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: News
-          url: news/
-          weight: 6
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
 
-params:
-    # description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    description: "This website hosts Hammed Oyekan's research papers, books, course materials, datasets, and contact information."
-    author: OYEKAN, Hammed Ajiboye
-    # googleAnalyticsID: "G-XXXXX"   # Uncomment & replace if using Google Analytics
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["books","courses","publications","data"]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: OYEKAN, Hammed A.
-          subtitle: "Graduate student in Applied Geophysics with a focus on full waveform inversion and complex subsurface imaging."
-          imageUrl: "picture.jpeg"     # Replace with the correct path if needed and  ensure this file exists in /static/
-          imageWidth: 120
-          imageHeight: 120
-          buttons:
-            - name: Publications
-              url: publications/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: News
-              url: news/
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 2
 
-    socialIcons:
-        - name: CV
-          url: cv.pdf
-        - name: Email
-          url: mailto:oyekan.geophysics@gmail.com
-        # - name: Zoom
-        #   url: https://www.zoom.com/
-        # - name: Location
-        #   url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: linkedin
-          url: "https://www.linkedin.com/in/oyekan-hammed"
-        - name: Google Scholar
-          url: https://scholar.google.com/
-        - name: GitHub
-          url: https://github.com/hoyekan
-        # - name: Substack
-          # url: https://www.substack.com
-        # - name: YouTube
-          # url: https://www.youtube.com/
-        # - name: Twitter
-          # url: https://x.com/
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 3
 
-    assets:
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: "OYEKAN, Hammed A."
-      icon: favicon.ico
-      iconHeight: 18
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 4
+
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableEmoji: true
+pygmentsUseClasses: true
+pygmentsCodeFences: true
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true  # Allows raw HTML in Markdown
