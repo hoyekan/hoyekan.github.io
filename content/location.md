@@ -10,8 +10,9 @@ description: "My mailing and office addresses at King Fahd University of Petrole
 
 #### Office address
 
-Room 1144, Building 76,
-College of Petroleum and Geosciences (CPG)  
+Room 1144, <br>
+Building 76, <br>
+College of Petroleum and Geosciences (CPG)  <br>
 King Fahd University of Petroleum and Minerals (KFUPM)
 
 ---
