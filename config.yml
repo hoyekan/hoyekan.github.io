@@ -136,14 +136,34 @@ params:
     Content: |
       I'm a graduate student in Applied Geophysics with a passion for seismic imaging, full waveform inversion, and computational geophysics. I use this space to share my research, projects, and academic journey.
 
+  # profileMode:
+  #   enabled: true
+  #   title: "Hammed Oyekan"
+  #   subtitle: "Applied Geophysics • Seismic Imaging • FWI"
+  #   imageUrl: "picture.jpeg"  # Place your profile photo in `static/`
+  #   imageWidth: 200
+  #   imageHeight: 200
+  #   imageTitle: "Hammed Oyekan"
+
   profileMode:
     enabled: true
-    title: "Hammed Oyekan"
-    subtitle: "Applied Geophysics • Seismic Imaging • FWI"
-    imageUrl: "picture.jpeg"  # Place your profile photo in `static/`
+    title: "Hammed Ajiboye, MSc"
+    subtitle: |
+     Welcome to my website! I am an aspiring computational and exploration seismologist/geophysicist. 
+     I recently received my MSc (December 31, 2024) in Geophysics from King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia, under the supervision of [Prof. Abdullatif A. Al-Shuhail](https://faculty.kfupm.edu.sa/es/ashuhail/).
+ 
+     My research focuses on:
+     - Wave propagation and theoretical seismology,
+     - Seismic data analysis, imaging, and inversion,
+     - Full-waveform inversion (FWI),
+     - Numerical modeling.
+
+     I am currently open to collaborations and opportunities.
+    imageUrl: "profile.jpg"
     imageWidth: 200
     imageHeight: 200
     imageTitle: "Hammed Oyekan"
+    
     buttons:
       - name: Curriculum Vitae
         url: "cv.pdf"
