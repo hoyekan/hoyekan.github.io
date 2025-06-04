@@ -1,6 +1,7 @@
 baseURL: "https://hoyekan.github.io/"  # Update this to your actual domain
 title: OYEKAN, Hammed Ajiboye
 theme: PaperMod
+languageCode: "en-us"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -56,11 +57,10 @@ params:
     profileMode:
           enabled: true
           title: OYEKAN, Hammed A.
-          # subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
           subtitle: "Graduate student in Applied Geophysics with a focus on full waveform inversion and complex subsurface imaging."
           imageUrl: "picture.jpeg"     # Replace with the correct path if needed and  ensure this file exists in /static/
-          imageWidth: 160
-          imageHeight: 160
+          imageWidth: 120
+          imageHeight: 120
           buttons:
             - name: Publications
               url: publications/
