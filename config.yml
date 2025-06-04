@@ -151,13 +151,12 @@ params:
     subtitle: |
       Welcome to my website! I am an aspiring computational and exploration seismologist/geophysicist. 
       <br/><br/>
-      I recently received my MSc in Geophysics (on the December 31, 2024) from King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia, under the supervision of <a href=\"https://faculty.kfupm.edu.sa/es/ashuhail/\" target=\"_blank\" style=\"color:#8e7bd0\">Prof. Abdullatif A. Al-Shuhail</a>.
-      <br/><br/>
+      I recently received my MSc in Geophysics (December 31, 2024) from King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia, under the supervision of <a href="https://faculty.kfupm.edu.sa/es/ashuhail/" target="_blank" style="color:#8e7bd0">Prof. Abdullatif A. Al-Shuhail</a>.      <br/><br/>
       My area of interest are:
-              - **Wave propagation** and **theoretical seismology**
-              - **Seismic data analysis**, **imaging**, and **inversion**
-              - **Full-waveform inversion (FWI)**
-              - **Numerical modeling**
+          - **Wave propagation** and **theoretical seismology**
+          - **Seismic data analysis**, **imaging**, and **inversion**
+          - **Full-waveform inversion (FWI)**
+          - **Numerical modeling**
       <br/><br/>
       I am currently open to collaborations and new opportunities.
 
@@ -193,6 +192,16 @@ params:
       url: "https://github.com/hoyekan"
     - name: linkedin
       url: "https://www.linkedin.com/in/oyekan-hammed"
+
+  assets:
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+  label:
+    text: "OYEKAN, Hammed A."
+    icon: favicon.ico
+    iconHeight: 18
       
 menu:
   main:
@@ -239,4 +248,13 @@ pygmentsCodeFences: true
 markup:
   goldmark:
     renderer:
-      unsafe: true  # Allows raw HTML in Markdown
+      unsafe: true   # Allows raw HTML in Markdown
+  highlight:
+    guessSyntax: true
+    style: xcode
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
+
+    
