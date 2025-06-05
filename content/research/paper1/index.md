@@ -1,8 +1,8 @@
 ---
 title: "Hybrid optimization for DC resistivity imaging via intelligible-in-time logic and the interior point method" 
 # venue: "JMLR 2024"
-date: 2024-10-22
-lastmod: 2024-10-28
+date: 2024-11-11
+# lastmod: 2024-10-28
 tags: ["Geophysical inversion", "DC resistivity imaging", "Hybrid optimization", "IbI logic algorithm", "Interior point method"]
 author: ["Paul Edigbue", "Hammed Oyekan", "Abdullatif Al-Shuhail", "Sherif Hanafy"] 
 description: "" 
