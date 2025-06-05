@@ -6,7 +6,7 @@ aliases:
     - /d2/
     - /d2.pdf
     - /d2a.pdf
-author: "Pascal Michaillat"
+author: "Copied from Pascal Michaillat's repo"
 description: "This template produces an academic paper with LaTeX. The paper follows typographical best practices and has a minimalist design."
 summary: "This template produces an academic paper with LaTeX. The paper follows typographical best practices and has a minimalist design." 
 cover:
