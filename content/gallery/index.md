@@ -1,7 +1,7 @@
 ---
 title: "Gallery"
 # date: 2025-06-01
-hidemeta: true
+# hidemeta: true
 type: "gallery"
 summary: ""
 ---
