@@ -3,14 +3,14 @@ title: "QuirkyMaths"
 date: 2023-01-14
 lastmod: 2024-11-24
 weight: 1
-tags: ["Physics","Mathematics","Statistics"]
-author: ["Kevin Roice"]
+tags: ["Geophysics", "Physics","Mathematics","Statistics"]
+# author: 
 description: "" 
-summary: "A collection of videos on my favourite physics and maths concepts." 
+summary: "A collection of videos on interesting concepts in geophysics, physics, science, and mathematics." 
 cover:
     image: "course2.png"
     alt: "Whirlpool"
-    relative: false
+    relative: true
 editPost:
     URL: "https://www.youtube.com/@quirkymaths"
     Text: "YouTube Channel"
