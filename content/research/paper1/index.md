@@ -22,7 +22,7 @@ editPost:
     URL: "https://doi.org/10.1038/s41598-024-78744-1"
     Text: "November 2024"
 
-showToc: true
+# showToc: true
 ---
 
 ---
