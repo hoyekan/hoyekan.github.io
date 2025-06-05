@@ -104,16 +104,16 @@ params:
   socialIcons:
     - name: CV
       url: cv.pdf
-    - name: "email"
-      url: "mailto:oyekan.geophysics@gmail.com"
-    - name: "googlescholar"
-      url: "https://scholar.google.com/"
-    - name: "researchgate"
-      url: "https://www.researchgate.net/profile/Hammed-Oyekan/research"
-    - name: "github"
-      url: "https://github.com/hoyekan"
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/oyekan-hammed"
+    - name: email
+      url: mailto:oyekan.geophysics@gmail.com
+    - name: googlescholar
+      url: https://scholar.google.com/
+    - name: researchgate
+      url: https://www.researchgate.net/profile/Hammed-Oyekan/research
+    - name: github
+      url: https://github.com/hoyekan
+    - name: linkedin
+      url: https://www.linkedin.com/in/oyekan-hammed
 
   assets:
     disableScrollBarStyle: true
