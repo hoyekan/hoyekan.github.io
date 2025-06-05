@@ -16,7 +16,7 @@ summary: "We propose a novel hybrid optimization approach that incorporates the 
 cover:
     image: "paper1.png"
     alt: "Hybrid Optimization in DC Resistivity Imaging"
-    relative: false
+    relative: true
 
 editPost:
     URL: "https://doi.org/10.1038/s41598-024-78744-1"
