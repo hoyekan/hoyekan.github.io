@@ -57,7 +57,3 @@ Edigbue, Paul, Hammed Oyekan, Abdullatif Al-Shuhail, and Sherif Hanafy. "Hybrid 
 
 ---
 
-<!-- ##### Related material
-
-+ [Presentation slides](presentation1.pdf)
-+ [Summary of the paper](https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/) -->
