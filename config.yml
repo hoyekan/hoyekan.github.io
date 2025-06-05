@@ -126,7 +126,7 @@ params:
   assets:
     disableScrollBarStyle: true
   cover:
-    hiddenInList: true
+    hiddenInList: false
     hiddenInSingle: true
   label:
     text: "OYEKAN, Hammed A."
