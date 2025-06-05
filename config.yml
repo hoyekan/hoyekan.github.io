@@ -46,7 +46,7 @@ menu:
       weight: 6
       
 params:
-  description: "This is the academic website of Hammed Oyekan. I will use this space to share my research, publications, and teaching resources."
+  description: "Still learning. Still building."
   author: "OYEKAN, Hammed"
   DateFormat: "January 2, 2006"
   defaultTheme: "light"
