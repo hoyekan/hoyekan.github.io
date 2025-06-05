@@ -1,20 +1,19 @@
 ---
-title: "Goal-Space Planning with Subgoal Models" 
+title: "Hybrid optimization for DC resistivity imaging via intelligible-in-time logic and the interior point method" 
 venue: "JMLR 2024"
 date: 2024-10-22
 lastmod: 2024-10-28
-tags: ["Model-Based Reinforcement Learning","Temporal Abstraction","Planning"]
-author: ["Chunlok Lo*","Kevin Roice*", "Parham Mohammad Panahi*", "Scott M. Jordan", "Adam White", "Gabor Michuz", "Farzane Aminmansour", "Martha White"]
+tags: ["Geophysical inversion", "DC resistivity imaging", "Hybrid optimization", "IbI logic algorithm", "Interior point method"]
+author: ["Paul Edigbue", "Hammed Oyekan", "Abdullatif Al-Shuhail", "Sherif Hanafy"] 
 description: "" 
-summary: "We propose a long-horizon background-planning algorithm for online RL. This used subgoal
-models (abstract in state & time) for faster long-term decision making & smarter value propagation." 
+summary: "We proposed a novel hybrid optimization approach that incorporate the meta-heuristic concept of Incomprehensible but Intelligible-in-time logics theory with the interior point method to enhance accuracy in geophysical data inversion."
 cover:
     image: "paper1.png"
     alt: "Abstract Models for Planning"
     relative: false
 editPost:
-    URL: "http://jmlr.org/papers/v25/24-0040.html"
-    Text: "JMLR 2024"
+    URL: "https://doi.org/10.1038/s41598-024-78744-1"
+    Text: "November 2024"
 
 ---
 
@@ -23,7 +22,8 @@ editPost:
 ##### Download
 
 + [Paper](paper1.pdf)
-<!-- + [Code and data](https://github.com/pmichaillat/feru) -->
++ [You can find the paper online here.](https://doi.org/10.1038/s41598-024-78744-1)
++ [Download here.](paper1.pdf)
 
 ---
 
