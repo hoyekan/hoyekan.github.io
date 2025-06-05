@@ -128,7 +128,7 @@ params:
     disableHLJS: true
     disableScrollBarStyle: true
   cover:
-    hiddenInList: true
+    hiddenInList: false
     hiddenInSingle: true
   label:
     text: "OYEKAN, Hammed A."
@@ -152,7 +152,8 @@ markup:
       unsafe: true
   highlight:
     guessSyntax: true
-    style: "xcode"
+    # style: "xcode"
+    style: "autumn" 
   tableOfContents:
     endLevel: 2
     ordered: false
