@@ -35,10 +35,15 @@ menu:
       url: "/blog/"
       weight: 4
 
+    - identifier: "design"
+      name: "Design"
+      url: "/design/"
+      weight: 5
+
     - identifier: "gallery"
       name: "Gallery"
       url: "/gallery/"
-      weight: 5
+      weight: 6
       
 params:
   description: "This is the academic website of Hammed Oyekan. I will use this space to share my research, publications, and teaching resources."
