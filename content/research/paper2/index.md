@@ -3,7 +3,7 @@ title: "Depth to Magnetic Source Estimation Using TDX Contour"
 # date: 2024-05
 tags: ["TDX", "Magnetic Source Estimation"]
 authors: ["Hammed Oyekan"]
-description: "A hybrid IbI-IPM method for high-accuracy geophysical inversion."
+description: "TDX contour for depth to magnetic source estimation"
 summary: "The abstract presents a fast and simple method of estimating the depth of a magnetic body using the TDX derivative of the total magnetic field. TDX is a first-order derivative of the magnetic field that, in addition to edge detection, is less affected by noise, allowing for better depth resolution. I demonstrate the effectiveness of the method using a two-prism block model and a simple bishop model with a uniform susceptibility of 0.001 cgs."
 
 # Cover image (relative to current directory)
@@ -11,7 +11,7 @@ cover:
   image: "paper2_0.jpg"     
   alt: "Depth to magnetic source estimation"
   caption: "Testing"
-  relative: true           # Critical: Set to true for same-directory files
+  relative: false           # Critical: Set to true for same-directory files
 
 # Link to DOI (external)
 editPost:
