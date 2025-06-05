@@ -45,7 +45,8 @@ Comparison of DC resistivity models:
 - (c) Synthetic negative anomaly  
 - (d) Inverted negative anomaly  
 
-![](paper2.png)  
+![](paper2_0.png)
+![](paper2_1.png)
 
 ---
 
