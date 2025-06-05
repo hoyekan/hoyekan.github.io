@@ -1,6 +1,6 @@
 ---
 title: "Depth to Magnetic Source Estimation Using TDX Contour"
-date: 2024-11-11
+# date: 2024-05
 tags: 
   - "TDX"
   - "Magnetic Source Estimation"
