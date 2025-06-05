@@ -87,8 +87,8 @@ params:
       <br/><br/> My area of interest are in **Wave propagation**, **theoretical seismology**, **Seismic data processing/analysis**, **imaging**, and **inversion**, **Full-waveform inversion (FWI)**, and **Numerical modelling**
       <br/><br/> I am currently open to collaborations and new opportunities.
     imageUrl: "profile.jpeg"
-    imageWidth: 200
-    imageHeight: 200
+    imageWidth: 160
+    imageHeight: 160
     buttons:
       - name: Curriculum Vitae
         url: cv/
@@ -120,6 +120,7 @@ params:
       url: https://www.linkedin.com/in/oyekan-hammed
 
   assets:
+    disableHLJS: true
     disableScrollBarStyle: true
   cover:
     hiddenInList: false
