@@ -6,7 +6,7 @@ tags: ["Geophysics", "Physics","Mathematics","Statistics"]
 description: "" 
 summary: "A collection of videos on interesting concepts in geophysics, physics, science, and mathematics." 
 cover:
-    image: "course2.png"
+    image: "whirlpool.png"
     alt: "Whirlpool"
     relative: true
 showToc: true
