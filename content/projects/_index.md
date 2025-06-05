@@ -5,4 +5,8 @@ type: "projects"
 summary: "My software and past projects."
 ---
 
+# Projects
+
+---
+
 Here are some of my notable projects.
