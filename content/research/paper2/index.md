@@ -4,7 +4,7 @@ title: "Depth to Magnetic Source Estimation Using TDX Contour"
 tags: ["TDX", "Magnetic Source Estimation"]
 authors: ["Hammed Oyekan"]
 description: "A hybrid IbI-IPM method for high-accuracy geophysical inversion."
-summary: "We proposed a novel hybrid optimization techniques that combines the meta-heuristic concept of Incomprehensible but Intelligible-in-time logics theory with the interior point method to improve DC resistivity inversion"
+summary: "The abstract presents a fast and simple method of estimating the depth of a magnetic body using the TDX derivative of the total magnetic field. TDX is a first-order derivative of the magnetic field that, in addition to edge detection, is less affected by noise, allowing for better depth resolution. I demonstrate the effectiveness of the method using a two-prism block model and a simple bishop model with a uniform susceptibility of 0.001 cgs."
 
 # Cover image (relative to current directory)
 cover:
@@ -24,6 +24,7 @@ editPost:
 ##### Downloads
 - [You can find the paper online here](https://doi.org/10.3997/2214-4609.2024101566)  
 - [Download the PDF](paper2.pdf)
+- [arXiv](https://doi.org/10.48550/arXiv.2505.22780)
 
 ---
 
@@ -33,12 +34,12 @@ Accurate depth estimation of magnetic sources plays a crucial role in various ge
 ---
 
 ##### Figure 2: 
-### Two prism Model (a) Total Magnetic Intensity, (b) Total Horizontal Derivative, (c) Vertical Derivative, (d) Absolute value of Vertical Derivative, |VDR|, (e) TDX map, (f) contour of interest, 45° ≤ TDX ≤ 90°, and (g) Estimated depth along the depth of the block.
+## Two prism Model (a) Total Magnetic Intensity, (b) Total Horizontal Derivative, (c) Vertical Derivative, (d) Absolute value of Vertical Derivative, |VDR|, (e) TDX map, (f) contour of interest, 45° ≤ TDX ≤ 90°, and (g) Estimated depth along the depth of the block.
 
 ![](paper2_0.jpg) <br>
 
 #### Figure 3: 
-### Bishop Models. (a) TMI response generated from the basement model, with uniform magnetic basement susceptibility, RTP’ed, and field strength of 50,000nT, (b) Total Gradient of the field, (c) Absolute value of the Vertical derivative, (d) TDX map between 45° and 90°, (e) Estimated depth along the edge of the block, and (f) Topography of the Model Magnetic Basement
+## Bishop Models. (a) TMI response generated from the basement model, with uniform magnetic basement susceptibility, RTP’ed, and field strength of 50,000nT, (b) Total Gradient of the field, (c) Absolute value of the Vertical derivative, (d) TDX map between 45° and 90°, (e) Estimated depth along the edge of the block, and (f) Topography of the Model Magnetic Basement
 
 ![](paper2_1.jpg)
 
