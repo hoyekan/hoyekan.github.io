@@ -1,5 +1,3 @@
-Old
-
 ---
 title: "Hybrid optimization for DC resistivity imaging via intelligible-in-time logic and the interior point method" 
 date: 2024-11-11
