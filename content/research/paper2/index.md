@@ -11,7 +11,7 @@ cover:
   image: "paper2_0.jpg"     
   alt: "Depth to magnetic source estimation"
   caption: "Testing"
-  relative: false           # Critical: Set to true for same-directory files
+  relative: true           # Critical: Set to true for same-directory files
 
 # Link to DOI (external)
 editPost:
