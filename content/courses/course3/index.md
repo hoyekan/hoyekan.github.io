@@ -1,7 +1,5 @@
 ---
 title: "QuirkyMaths" 
-date: 2023-01-14
-lastmod: 2024-11-24
 weight: 1
 tags: ["Geophysics", "Physics","Mathematics","Statistics"]
 # author: 
@@ -11,9 +9,6 @@ cover:
     image: "course2.png"
     alt: "Whirlpool"
     relative: true
-editPost:
-    URL: "https://www.youtube.com/@quirkymaths"
-    Text: "YouTube Channel"
 showToc: true
 disableAnchoredHeadings: false
 
