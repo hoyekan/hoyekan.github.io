@@ -6,10 +6,8 @@ description: ""
 + [Download CV](/cv.pdf)
 + [Download Resume](/cv.pdf)
 ##### EDUCATION
-+ Ph.D., Economics, Purdue University, 2025 (Expected)
-+ M.S., Economics, Humboldt University of Berlin, 2017
-+ M.A., Economics, University of International Business and Economics, 2017
-+ B.A., International Business, Zhongnan University of Economics and Law, 2014
++ M.S., Geophysics, King Fahd University of Petroleum and Minerals
++ B.Sc., Applied Geophysics, University of Ilorin, Ilorin, Nigeria
 
 ##### SKILLS
 + Programming Language: R, MATLAB, Python
