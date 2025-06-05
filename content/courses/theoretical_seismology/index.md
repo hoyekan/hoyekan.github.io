@@ -2,13 +2,17 @@
 title: "Theoretical Seismology" 
 weight: 1
 tags: ["Green Function", "Born approximation", "Inversion", "Asymptotic", "Acoustic Wave", "Elastic Wave","Calculus"]
-# author: 
+author: OYEKAN, Hammed 
 description: "" 
 summary: "Mathematical derivation to some classical solutions in theoretical seismology" 
 cover:
     image: "seismology.png"
     alt: "theoretical and quantitative seismology"
     relative: true
+editPost:
+    URL: "https://github.com/hoyekan/GEOP591-Theoretical-Seismology"
+    Text: "Course portal"
+    
 showToc: true
 disableAnchoredHeadings: false
 
