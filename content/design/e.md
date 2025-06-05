@@ -4,7 +4,7 @@ date: 2024-06-26
 url: /e/
 aliases: 
     - /d3/
-author: "Pascal Michaillat"
+author: "Copied from Pascal Michaillat's repo"
 description: "These commands simplify writing mathematical expressions with LaTeX while automatically respecting the rules of mathematical typography." 
 summary: "This collection of commands simplifies writing mathematical expressions with LaTeX while automatically respecting the rules of mathematical typography." 
 cover:
