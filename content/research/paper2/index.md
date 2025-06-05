@@ -13,7 +13,7 @@ summary: "We proposed a novel hybrid optimization techniques that combines the m
 
 # Cover image (relative to current directory)
 cover:
-  image: "paper2.png"      # Looks for ./paper1.png in same folder as this .md file
+  image: "paper2_0.jpg"      # Looks for ./paper1.png in same folder as this .md file
   alt: "Resistivity model comparison"
   caption: "Figure 1. Synthetic vs. inverted resistivity anomalies"
   relative: true           # Critical: Set to true for same-directory files
@@ -45,8 +45,8 @@ Comparison of DC resistivity models:
 - (c) Synthetic negative anomaly  
 - (d) Inverted negative anomaly  
 
-![](paper2_0.png)
-![](paper2_1.png)
+![](paper2_0.jpg)
+![](paper2_1.jpg)
 
 ---
 
