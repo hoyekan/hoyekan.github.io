@@ -78,9 +78,10 @@ params:
     imageTitle: "In the name of Allah"
 
   # PaperMod-specific fallback
-  # cover:
+  cover:
   #   image: "in-the-name-of-Allah.jpeg"
-  #   hiddenInList: true
+    image: "in_the_name_of_Allah.jpeg"
+    hiddenInList: false
     
   profileMode:
     enabled: true
