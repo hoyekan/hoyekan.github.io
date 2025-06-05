@@ -88,8 +88,8 @@ params:
     imageWidth: 200
     imageHeight: 200
     buttons:
-      - name: "Curriculum Vitae"
-        url: "cv.pdf"
+      - name: Curriculum Vitae
+        url: cv/
       - name: "Research"
         url: "/research/"
       - name: "Projects"
