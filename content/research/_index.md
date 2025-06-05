@@ -2,7 +2,7 @@
 title: "Research"
 date: 2025-06-01
 type: "research"
-summary: "My research on seismic imaging and geophysics."
+summary: "Preprints and articles on this website."
 ---
 
 This page contains my research publications and ongoing work.
