@@ -81,7 +81,7 @@ params:
   cover:
   #   image: "in-the-name-of-Allah.jpeg"
     image: "in_the_name_of_Allah.jpeg"
-    hiddenInList: false
+    hiddenInList: true
     
   profileMode:
     enabled: true
