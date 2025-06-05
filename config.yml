@@ -35,11 +35,6 @@ menu:
       url: "/blog/"
       weight: 4
 
-    # - identifier: "contact"
-    #   name: "Contact"
-    #   url: "/contact/"
-    #   weight: 5
-      
     - identifier: "gallery"
       name: "Gallery"
       url: "/gallery/"
