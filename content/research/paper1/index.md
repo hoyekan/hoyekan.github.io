@@ -21,7 +21,6 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper1.pdf)
 + [You can find the paper online here.](https://doi.org/10.1038/s41598-024-78744-1)
 + [Download here.](paper1.pdf)
 
