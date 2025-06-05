@@ -71,7 +71,7 @@ params:
   
   coverImageMode:
     enabled: true
-    imageUrl: "in_the_name_of_Allah.jpeg"
+    imageUrl: "/in_the_name_of_Allah.jpeg"
     imageWidth: 170
     imageHeight: 55
     imageTitle: "In the name of Allah"
