@@ -10,7 +10,7 @@ description: ""
 + B.Sc., Applied Geophysics, University of Ilorin, Ilorin, Nigeria
 
 ##### SKILLS
-+ Programming Language: R, MATLAB, Python
++ Programming Language: Python, Wolfram Mathematica, MATLAB (limited) 
 
   
 ##### GRANTS & AWARDS
