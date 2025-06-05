@@ -5,4 +5,4 @@ cover:
   relative: true       # Critical for same-directory files
 ---
 
-[Download PDF](paper1.pdf)  # Relative link
+[Download PDF](paper1.pdf)
