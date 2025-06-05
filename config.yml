@@ -102,6 +102,8 @@ params:
         url: "/news/"
 
   socialIcons:
+    - name: CV
+      url: cv.pdf
     - name: "email"
       url: "mailto:oyekan.geophysics@gmail.com"
     - name: "googlescholar"
