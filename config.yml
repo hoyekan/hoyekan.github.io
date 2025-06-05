@@ -71,7 +71,7 @@ params:
   
   coverImageMode:
     enabled: true
-    imageUrl: "in_the_name_of_Allah.jpeg"
+    imageUrl: "in-the-name-of-Allah.jpeg"
     # imageUrl: "in-the-name-of-Allah.jpeg"
     imageWidth: 170
     imageHeight: 55
@@ -79,7 +79,7 @@ params:
 
   # PaperMod-specific fallback
   cover:
-    image: "in_the_name_of_Allah.jpeg"
+    image: "in-the-name-of-Allah.jpeg"
     hiddenInList: false
     
   profileMode:
