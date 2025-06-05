@@ -1,12 +1,8 @@
 ---
 title: "Depth to Magnetic Source Estimation Using TDX Contour"
 # date: 2024-05
-tags: 
-  - "TDX"
-  - "Magnetic Source Estimation"
-authors: 
-  - "Hammed Oyekan"
-  - "Abdullatif Al-Shuhail"
+tags: ["TDX", "Magnetic Source Estimation"]
+authors: ["Hammed Oyekan"]
 description: "A hybrid IbI-IPM method for high-accuracy geophysical inversion."
 summary: "We proposed a novel hybrid optimization techniques that combines the meta-heuristic concept of Incomprehensible but Intelligible-in-time logics theory with the interior point method to improve DC resistivity inversion"
 
@@ -14,7 +10,7 @@ summary: "We proposed a novel hybrid optimization techniques that combines the m
 cover:
   image: "paper2_0.jpg"     
   alt: "Depth to magnetic source estimation"
-  caption: "Figure 1. Synthetic vs. inverted resistivity anomalies"
+  caption: "Testing"
   relative: true           # Critical: Set to true for same-directory files
 
 # Link to DOI (external)
