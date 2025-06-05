@@ -43,7 +43,7 @@ menu:
     - identifier: "gallery"
       name: "Gallery"
       url: "/gallery/"
-      weight: 6
+      weight: 5
       
 params:
   description: "This is the academic website of Hammed Oyekan. I will use this space to share my research, publications, and teaching resources."
