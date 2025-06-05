@@ -1,6 +1,7 @@
 ---
 title: "Hybrid optimization for DC resistivity imaging via intelligible-in-time logic and the interior point method" 
-date: 2024-11-11
+
+<!--date: 2024-11-11-->
 
 tags: ["Geophysical inversion", "DC resistivity imaging", "Hybrid optimization", "IbI logic algorithm", "Interior point method"]
 
