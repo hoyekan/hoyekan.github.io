@@ -15,10 +15,10 @@ taxonomies:
 
 menu:
   main:
-    - identifier: "about"
-      name: "About"
-      url: "/about/"
-      weight: 1
+    # - identifier: "about"
+    #   name: "About"
+    #   url: "/about/"
+    #   weight: 1
 
     - identifier: "research"
       name: "Research"
