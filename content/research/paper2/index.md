@@ -34,12 +34,12 @@ Accurate depth estimation of magnetic sources plays a crucial role in various ge
 ---
 
 ##### Figure 2: 
-## Two prism Model (a) Total Magnetic Intensity, (b) Total Horizontal Derivative, (c) Vertical Derivative, (d) Absolute value of Vertical Derivative, |VDR|, (e) TDX map, (f) contour of interest, 45° ≤ TDX ≤ 90°, and (g) Estimated depth along the depth of the block.
+##### Two prism Model (a) Total Magnetic Intensity, (b) Total Horizontal Derivative, (c) Vertical Derivative, (d) Absolute value of Vertical Derivative, |VDR|, (e) TDX map, (f) contour of interest, 45° ≤ TDX ≤ 90°, and (g) Estimated depth along the depth of the block.
 
 ![](paper2_0.jpg) <br>
 
 #### Figure 3: 
-## Bishop Models. (a) TMI response generated from the basement model, with uniform magnetic basement susceptibility, RTP’ed, and field strength of 50,000nT, (b) Total Gradient of the field, (c) Absolute value of the Vertical derivative, (d) TDX map between 45° and 90°, (e) Estimated depth along the edge of the block, and (f) Topography of the Model Magnetic Basement
+##### Bishop Models. (a) TMI response generated from the basement model, with uniform magnetic basement susceptibility, RTP’ed, and field strength of 50,000nT, (b) Total Gradient of the field, (c) Absolute value of the Vertical derivative, (d) TDX map between 45° and 90°, (e) Estimated depth along the edge of the block, and (f) Topography of the Model Magnetic Basement
 
 ![](paper2_1.jpg)
 
