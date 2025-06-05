@@ -1,6 +1,7 @@
 ---
 title: "Depth to Magnetic Source Estimation Using TDX Contour"
 # date: 2024-05
+weight: 2
 tags: ["TDX", "Magnetic Source Estimation"]
 authors: ["Hammed Oyekan"]
 description: "TDX contour for depth to magnetic source estimation"
