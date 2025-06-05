@@ -4,7 +4,7 @@ date: 2025-05-11
 url: /b/
 aliases: 
     - /d5/
-author: "Pascal Michaillat"
+author: "Copied from Pascal Michaillat's repo"
 description: "This template produces a personal academic website with Hugo. The website has a minimalist design and is hosted on GitHub Pages."
 summary: "This template produces a personal academic website with Hugo. The website has a minimalist design based on the PaperMod theme and is hosted on GitHub Pages." 
 cover:
