@@ -100,6 +100,8 @@ params:
         url: "/courses/"
       - name: "News"
         url: "/news/"
+      - name: Location
+        url: location/
 
   socialIcons:
     - name: CV
