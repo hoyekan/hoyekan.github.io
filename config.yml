@@ -125,6 +125,7 @@ params:
   label:
     text: "OYEKAN, Hammed A."
     icon: "/favicon.ico"
+    # icon: "/favicon-whale.ico"
     iconHeight: 18
       
 outputs:
