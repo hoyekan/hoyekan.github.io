@@ -5,4 +5,4 @@ type: "research"
 summary: "Preprints and articles on this website."
 ---
 
-This page contains my research publications and ongoing work.
+<!-- This page contains my research publications and ongoing work. -->
