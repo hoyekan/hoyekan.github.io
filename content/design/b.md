@@ -1,6 +1,6 @@
 ---
 title: "Minimalist Hugo Template for Academic Websites" 
-date: 2025-05-11
+# date: 2025-05-11
 url: /b/
 aliases: 
     - /d5/
