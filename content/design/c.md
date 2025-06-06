@@ -9,7 +9,7 @@ author: "Copied from Pascal Michaillat's repo"
 description: "This template produces an academic presentation with LaTeX and Beamer. The presentation follows typographical best practices and has a minimalist design."
 summary: "This template produces an academic presentation with LaTeX and the Beamer class. The presentation follows typographical best practices and has a minimalist design."
 cover:
-    image: "/c.png"
+    image: "c.png"
     alt: "Presentation slide produced with template"
     relative: true
 editPost:
