@@ -6,7 +6,7 @@ hidemeta: true  # Hides date/author if enabled by your theme
 description: ""
 ---
 
-# Gallery
+<!--# Gallery-->
 ---
 
 ## Field Projects & Lab Work
