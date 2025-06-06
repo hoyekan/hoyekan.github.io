@@ -1,11 +1,6 @@
 ---
 title: "Minimalist LaTeX Template for Academic Papers" 
-# date: 2024-06-28
-# url: /a/
-# aliases: 
-#    - /d2/
-#    - /d2.pdf
-#    - /d2a.pdf
+weight: 1
 author: ["Copied from Pascal Michaillat's repo"]
 description: "This template produces an academic paper with LaTeX. The paper follows typographical best practices and has a minimalist design."
 summary: "This template produces an academic paper with LaTeX. The paper follows typographical best practices and has a minimalist design." 
@@ -16,7 +11,7 @@ cover:
 editPost:
     URL: "https://github.com/pmichaillat/latex-paper"
     Text: "GitHub repository"
-#showToc: true
+showToc: true
 #disableAnchoredHeadings: false
 ---
 
