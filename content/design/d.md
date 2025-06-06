@@ -1,6 +1,6 @@
 ---
 title: "Minimalist MATLAB Template for Scientific Figures" 
-date: 2023-10-07
+# date: 2023-10-07
 url: /d/
 aliases: 
     - /d4/
@@ -11,6 +11,7 @@ summary: "This template produces a set of scientific figures with MATLAB. The fi
 cover:
     image: "d.png"
     alt: "Figure produced with template"
+    relative: true
 editPost:
     URL: "https://github.com/pmichaillat/matlab-figures"
     Text: "GitHub repository"
