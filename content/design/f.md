@@ -6,8 +6,9 @@ author: "Copied from Pascal Michaillat's repo"
 description: "This template produces an academic CV with LaTeX. The CV follows typographical best practices and has a minimalist design."
 summary: "This template produces an academic CV with LaTeX. The CV follows typographical best practices and has a minimalist design." 
 cover:
-    image: "/f.png"
+    image: "f.png"
     alt: "CV produced with template"
+    relative: true
 editPost:
     URL: "https://github.com/pmichaillat/latex-cv"
     Text: "GitHub repository"
