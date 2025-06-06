@@ -31,7 +31,7 @@ The tutorials in this repository aim to bridge that gap. As such, a junior or se
 
 + [1. Aki, Keiiti, and Paul G. Richards. Quantitative seismology. 2002.](https://drive.google.com/file/d/1lSXs7zHpepTfSd_eN5CxqROIgesGQ_cJ/view)
 
-## "Derivation of Some Classical Concepts in Seismology"
+## Derivation of Some Classical Concepts in Seismology
 
 + [Navier Cauchy Equation](Navier___Cauchy_Equation.pdf)
 + [Green Function for the 2D SH wave](Green_Function_for_the_2D_SH_wave.pdf)
@@ -40,6 +40,4 @@ The tutorials in this repository aim to bridge that gap. As such, a junior or se
 + [Derivation of the scattered wavefield due to model perturbation in Homogeneous Elastic_Media](Derivation_of_the_scattered_wavefield_due_to_model_perturbation_in_Homogeneous_Elastic_Media.pdf)
 + [Linearization of the Acoustic Wave Equation using the Born Approximation](Linearization_of_the_Acoustic_Wave_Equation_using_the_Born_Approximation.pdf)
 + [Time Domain Complex valued ViscoElastic Wave Equation in an Isotropic Homogenous Medium](Time_Domain_Complex_valued_ViscoElastic_Wave_Equation_in_an_Isotropic__Homogenous_Medium.pdf)
-
-
 
