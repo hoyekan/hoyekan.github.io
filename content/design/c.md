@@ -1,11 +1,11 @@
 ---
 title: "Minimalist LaTeX Template for Academic Presentations" 
 # date: 2024-06-28
-url: /c/
-aliases: 
-    - /d1/
-    - /d1.pdf
-author: "Copied from Pascal Michaillat's repo"
+# url: /c/
+# aliases: 
+#    - /d1/
+#    - /d1.pdf
+author: ["Copied from Pascal Michaillat's repo"]
 description: "This template produces an academic presentation with LaTeX and Beamer. The presentation follows typographical best practices and has a minimalist design."
 summary: "This template produces an academic presentation with LaTeX and the Beamer class. The presentation follows typographical best practices and has a minimalist design."
 cover:
