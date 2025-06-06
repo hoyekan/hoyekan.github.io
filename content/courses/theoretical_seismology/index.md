@@ -27,6 +27,9 @@ Although some of the solutions in this repository can be found in classic theore
 
 The tutorials in this repository aim to bridge that gap. As such, a junior or senior undergraduate geophysics student with a solid understanding of integral and differential calculus should be able to follow the material in this repository without any problem. This material can also used by graduate students or faculties to teach theoretical seismology.
 
+##### Key References
+
++ [1. Aki, Keiiti, and Paul G. Richards. Quantitative seismology. 2002.](https://drive.google.com/file/d/1lSXs7zHpepTfSd_eN5CxqROIgesGQ_cJ/view)
 
 ## Some of my favourite videos
 
