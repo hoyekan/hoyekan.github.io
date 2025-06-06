@@ -3,8 +3,9 @@ title: "Gallery"
 author: ["My Gallery"]
 # date: 2025-06-01
 # hidemeta: true  # Hides date/author if enabled by your theme
-#type: "gallery"
-description: ""
+type: "page"
+layout: "gallery"
+description: "My photo album"
 
 # showToc: true
 # disableAnchoredHeadings: false
