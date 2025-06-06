@@ -12,7 +12,7 @@ summary: "This template produces an academic paper with LaTeX. The paper follows
 cover:
     image: "a.png"
     alt: "Paper page produced with template"
-    relative: true
+    relative: false
 editPost:
     URL: "https://github.com/pmichaillat/latex-paper"
     Text: "GitHub repository"
