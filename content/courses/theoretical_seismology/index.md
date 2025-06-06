@@ -1,6 +1,6 @@
 ---
 title: "Theoretical Seismology" 
-weight: 2
+weight: 1
 tags: ["Green Function", "Born approximation", "Inversion", "Asymptotic", "Acoustic Wave", "Elastic Wave","Calculus"]
 author: OYEKAN, Hammed 
 description: "" 
