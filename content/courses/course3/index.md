@@ -1,6 +1,6 @@
 ---
 title: "QuirkyMaths" 
-weight: 1
+weight: 2
 tags: ["Geophysics", "Physics","Mathematics","Statistics"]
 # author: 
 description: "" 
