@@ -1,6 +1,6 @@
 ---
 title: "Minimalist LaTeX Template for Academic CVs" 
-date: 2025-05-11
+# date: 2025-05-11
 url: /f/
 author: "Copied from Pascal Michaillat's repo"
 description: "This template produces an academic CV with LaTeX. The CV follows typographical best practices and has a minimalist design."
