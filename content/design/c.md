@@ -1,5 +1,6 @@
 ---
 title: "Minimalist LaTeX Template for Academic Presentations" 
+weight: 3
 # date: 2024-06-28
 # url: /c/
 # aliases: 
