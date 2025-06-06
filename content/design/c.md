@@ -1,6 +1,6 @@
 ---
 title: "Minimalist LaTeX Template for Academic Presentations" 
-date: 2024-06-28
+# date: 2024-06-28
 url: /c/
 aliases: 
     - /d1/
