@@ -11,20 +11,12 @@ description: "My photo album"
 # disableAnchoredHeadings: false
 ---
 
-<!--# Gallery
-
----
-
-## Field Projects & Lab Work
-
-*More images coming soon...*-->
-
-
 ---
 
 # Gallery
 
-A collection of photos and video highlights from fieldwork and lab sessions.
+A collection of photos and video highlights...
+
 
 <style>
 .gallery-grid {
@@ -33,28 +25,46 @@ A collection of photos and video highlights from fieldwork and lab sessions.
   gap: 15px;
   margin-top: 20px;
 }
+
 .gallery-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  transition: transform 0.2s ease-in-out;
+  width: 100%; /* Full container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* Subtle shadow */
+  transition: transform 0.2s ease-in-out; /* Smooth hover animation */
 }
+
 .gallery-grid img:hover {
-  transform: scale(1.03);
+  transform: scale(1.03); /* Slight zoom on hover */
 }
+
 .gallery-grid video {
   width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  border-radius: 8px; /* Matches image styling */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15); 
 }
+
 </style>
+
+
 
 <div class="gallery-grid">
 
-  <img src="/images/gallery/pic1.jpeg" alt="Description 1" />
-  <img src="/images/gallery/pic2.jpg" alt="Description 2" />
-  <img src="/images/gallery/pic3.JPG" alt="Description 3" />
+  <figure>
+    <img src="/images/gallery/pic1.jpeg" alt="Fieldwork 1" />
+    <figcaption>Geophone layout during seismic fieldwork.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/images/gallery/pic2.jpg" alt="Lab Work 1" />
+    <figcaption>Rock sample analysis under microscope.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/images/gallery/pic3.JPG" alt="Vibroseis" />
+    <figcaption>Vibroseis truck in operation.</figcaption>
+  </figure>
+
   
   <!--<img src="/images/gallery/pic4.jpg" alt="Description 4" />
   <img src="/images/gallery/pic5.jpg" alt="Description 5" />
@@ -70,9 +80,4 @@ A collection of photos and video highlights from fieldwork and lab sessions.
   </video>-->
 
 </div>
-
-
-
-
-
 
