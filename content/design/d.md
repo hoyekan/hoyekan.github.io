@@ -9,11 +9,12 @@ author: "Copied from Pascal Michaillat's repo"
 description: "This template produces a set of scientific figures with MATLAB. The figures adhere to best practices for the visual display of quantitative information."
 summary: "This template produces a set of scientific figures with MATLAB. The figures adhere to best practices for the visual display of quantitative information."
 cover:
-    image: "/d.png"
+    image: "d.png"
     alt: "Figure produced with template"
 editPost:
     URL: "https://github.com/pmichaillat/matlab-figures"
     Text: "GitHub repository"
+    relative: true
 showToc: true
 disableAnchoredHeadings: false
 
