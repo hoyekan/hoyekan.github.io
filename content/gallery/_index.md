@@ -6,10 +6,11 @@ author: ["My Gallery"]
 #type: "gallery"
 description: ""
 
-#showToc: true
-#disableAnchoredHeadings: false
+# showToc: true
+# disableAnchoredHeadings: false
 ---
 
+# Gallery
 <!--# Gallery-->
 ---
 
