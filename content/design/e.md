@@ -1,6 +1,6 @@
 ---
 title: "LaTeX Commands to Write Math" 
-date: 2024-06-26
+# date: 2024-06-26
 url: /e/
 aliases: 
     - /d3/
