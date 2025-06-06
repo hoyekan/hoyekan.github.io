@@ -11,9 +11,6 @@ description: ""
 
 ## Field Projects & Lab Work
 
-{{< gallery dir="img/gallery/" />}}  <!-- Uses Hugo's built-in gallery shortcode -->
-{{< load-photoswipe >}}  <!-- Enables lightbox if using PhotoSwipe -->
-
 *More images coming soon...*
 
 Coming Soon ... 
