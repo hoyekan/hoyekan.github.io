@@ -4,6 +4,9 @@ title: "Gallery"
 hidemeta: true  # Hides date/author if enabled by your theme
 #type: "gallery"
 description: ""
+
+#showToc: true
+#disableAnchoredHeadings: false
 ---
 
 <!--# Gallery-->
@@ -12,5 +15,3 @@ description: ""
 ## Field Projects & Lab Work
 
 *More images coming soon...*
-
-Coming Soon ... 
