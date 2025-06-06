@@ -1,7 +1,7 @@
 ---
 title: "Minimalist LaTeX Template for Academic Papers" 
 # date: 2024-06-28
-url: /a/
+# url: /a/
 aliases: 
     - /d2/
     - /d2.pdf
