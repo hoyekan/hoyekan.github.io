@@ -43,7 +43,3 @@ The tutorials in this repository aim to bridge that gap. As such, a junior or se
 
 
 
-<!-- + [What is vorticity?](https://youtu.be/LP9VHEUzyHA?si=WmrRrO19scNPWLdo) -->
-+ [Deriving Maxwell's Equations](https://youtube.com/playlist?list=PL_0o6P_S88zZmu1NdHb1nB_xjjBQXLGPB&si=ZuLK8qgtK7NL_J8K)
-<!--+ [What is Luminosity?](https://youtu.be/S0bQEyiq-6o?si=xVIUODrI2NB4Y9hX) -->
-
