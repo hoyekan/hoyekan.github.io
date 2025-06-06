@@ -53,8 +53,8 @@ A collection of photos and video highlights from fieldwork and lab sessions.
 <div class="gallery-grid">
 
   <img src="/images/gallery/pic1.jpeg" alt="Description 1" />
-  <img src="/images/gallery/pic2.JPG" alt="Description 2" />
-  <img src="/images/gallery/pic3.jpg" alt="Description 3" />
+  <img src="/images/gallery/pic2.jpg" alt="Description 2" />
+  <img src="/images/gallery/pic3.JPG" alt="Description 3" />
   
   <!--<img src="/images/gallery/pic4.jpg" alt="Description 4" />
   <img src="/images/gallery/pic5.jpg" alt="Description 5" />
