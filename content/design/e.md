@@ -8,8 +8,9 @@ author: "Copied from Pascal Michaillat's repo"
 description: "These commands simplify writing mathematical expressions with LaTeX while automatically respecting the rules of mathematical typography." 
 summary: "This collection of commands simplifies writing mathematical expressions with LaTeX while automatically respecting the rules of mathematical typography." 
 cover:
-    image: "/e.png"
+    image: "e.png"
     alt: "Mathematical expressions produced with commands"
+    relative: true
 editPost:
     URL: "https://github.com/pmichaillat/latex-math"
     Text: "GitHub repository"
