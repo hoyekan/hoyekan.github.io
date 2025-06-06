@@ -16,8 +16,8 @@ cover:
 editPost:
     URL: "https://github.com/pmichaillat/latex-paper"
     Text: "GitHub repository"
-showToc: true
-disableAnchoredHeadings: false
+#showToc: true
+#disableAnchoredHeadings: false
 ---
 
 The template produces an academic paper with [LaTeX](https://www.latex-project.org). The paper adheres to typographical best practices and has a minimalist design. The template is particularly well suited for research papers. It is designed so papers are comfortable to read and easy to scan, both in print and on screen. 
