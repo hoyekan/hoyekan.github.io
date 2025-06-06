@@ -10,6 +10,7 @@ summary: "This template produces a personal academic website with Hugo. The webs
 cover:
     image: "/b.png"
     alt: "Webpage produced with template"
+    relative: true
 editPost:
     URL: "https://github.com/pmichaillat/hugo-website"
     Text: "GitHub repository"
