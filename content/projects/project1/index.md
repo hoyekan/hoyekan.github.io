@@ -7,7 +7,7 @@ weight: 1
 
 date: 2025-05-05
 
-tags: ["Discharge Potential", "Modelling", "Aquifer", "Groundwater Flow", "Confined Aquifer", "Unconfined Aquifer", "Pumping Wells", "Steady Flow", "Transient (Unsteady) Flow", "Heterogeneous", "Anisotropic", "Theis Equation"]
+tags: ["Discharge Potential", "Groundwater Modelling", "Aquifer", "Groundwater Flow", "Confined Aquifer", "Unconfined Aquifer", "Pumping Wells", "Steady Flow", "Transient (Unsteady) Flow", "Heterogeneous", "Anisotropic Flow", "Theis Equation", "Wolfram Mathematica"]
 
 author: ["Oyekan Hammed"]
 
@@ -19,7 +19,7 @@ summary: "A Mathematica-based study of groundwater flow around wells using analy
 
 cover:
     image: "project.png"
-    alt: "Modelling Groundwater Flow"
+    alt: "Equipotential and streamlines around wells"
     relative: true
 
 ---
