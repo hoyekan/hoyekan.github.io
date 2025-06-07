@@ -11,8 +11,6 @@ tags: ["Discharge Potential", "Groundwater Modelling", "Aquifer", "Groundwater F
 
 author: ["Oyekan Hammed"]
 
-description: "" 
-
 description: "Analytical and numerical exploration of groundwater flow in confined, unconfined, and combined aquifer systems using discharge potential theory."
 
 summary: "A Mathematica-based study of groundwater flow around wells using analytical discharge potential formulations for steady-state and transient conditions in both isotropic and anisotropic aquifers."
@@ -44,6 +42,22 @@ The implementation begins with a 1D solution for groundwater flow using discharg
 ##### Figure 1: Flownet around a single well (Discharge potential, Stream function, and Hydraulic head)
 
 ![](pic1.png)
+
+##### Figure 2: Contour plot of equipotentials and streamlines for 2 wells in an unconfined aquifer (Homogeneous and Isotropic)
+
+![](pic2.png)
+
+##### Figure 3: Contour plot of equipotentials and streamlines for 2 wells in an unconfined aquifer with a uniform flow (Homogeneous and Isotropic)
+
+![](pic3.png)
+
+##### Figure 4: Flow Net: Discharge and Stream Functions (Heterogeneous and Anisotropic unconfined aquifer)
+
+![](pic4.png)
+
+##### Figure 5: Hydraulic Head distribution (Heterogeneous and Anisotropic unconfined aquifer)
+
+![](pic5.png)
 
 ---
 
