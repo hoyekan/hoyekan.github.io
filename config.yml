@@ -70,7 +70,7 @@ params:
   math: true
   
   coverImageMode:
-    enabled: true
+    enabled: false
     imageUrl: "/in_the_name_of_Allah.jpeg"
     # imageUrl: "/images/in_the_name_of_Allah.jpeg"
     # imageUrl: "https://hoyekan.github.io/in_the_name_of_Allah.jpeg"
