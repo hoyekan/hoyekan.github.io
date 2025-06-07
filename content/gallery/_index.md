@@ -51,17 +51,17 @@ A collection of photos and video highlights...
 
   <figure>
     <img src="/images/gallery/pic1.jpeg" alt="Fieldwork 1" />
-    <figcaption>Geophone layout during seismic fieldwork.</figcaption>
+    <figcaption>Group photo with the UNILORIN 2019 Geophysics class during our last field trip to Share/Tsaragi in Kwara State, Nigeria.</figcaption>
   </figure>
 
   <figure>
     <img src="/images/gallery/pic2.jpg" alt="Lab Work 1" />
-    <figcaption>Rock sample analysis under microscope.</figcaption>
+    <figcaption>Another group photo.</figcaption>
   </figure>
 
   <figure>
     <img src="/images/gallery/pic3.JPG" alt="Vibroseis" />
-    <figcaption>Vibroseis truck in operation.</figcaption>
+    <figcaption>A session with late Prof. Peter Ibikunle Olasehinde</figcaption>
   </figure>
 
   
@@ -73,10 +73,13 @@ A collection of photos and video highlights...
   <img src="/images/gallery/pic9.jpg" alt="Description 9" />
   <img src="/images/gallery/pic10.jpg" alt="Description 10" />-->
 
-  <!--<video controls>
-    <source src="/images/gallery/video1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>-->
+  <!--<figure>
+    <video controls>
+      <source src="/images/gallery/video1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>Short clip from field survey with seismic equipment.</figcaption>
+  </figure>-->
 
 </div>
 
