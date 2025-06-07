@@ -123,8 +123,8 @@ params:
     disableHLJS: true
     disableScrollBarStyle: true
   cover:
-    # hiddenInList: false
-    hiddenInList: true
+    hiddenInList: false
+    # hiddenInList: true
     hiddenInSingle: true
   label:
     text: "OYEKAN, Hammed A."
