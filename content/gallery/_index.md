@@ -50,17 +50,17 @@ A collection of photos and video highlights...
 <div class="gallery-grid">
 
   <figure>
-    <img src="/images/gallery/pic1.jpeg" alt="Fieldwork 1" />
+    <img src="/images/gallery/pic1.jpeg" alt="FieldTrip 1" />
     <figcaption>Group photo with the UNILORIN 2019 Geophysics class during our last field trip to Share/Tsaragi in Kwara State, Nigeria.</figcaption>
   </figure>
 
   <figure>
-    <img src="/images/gallery/pic2.jpg" alt="Lab Work 1" />
+    <img src="/images/gallery/pic2.jpg" alt="FieldTrip 2" />
     <figcaption>Another group photo.</figcaption>
   </figure>
 
   <figure>
-    <img src="/images/gallery/pic3.JPG" alt="Vibroseis" />
+    <img src="/images/gallery/pic3.JPG" alt="FieldTrip 3" />
     <figcaption>A session with late Prof. Peter Ibikunle Olasehinde</figcaption>
   </figure>
 
