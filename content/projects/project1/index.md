@@ -35,13 +35,15 @@ cover:
 
 ##### Abstract
 
-This work investigates the use of rotational inertia from gyroscopic torques as a means of haptic feedback to augment Virtual Reality (VR) experiences. While modern VR systems are capable of fabricating visual and auditory immersion into alternate realities much better than the technologies from a couple decades ago, studies have long shown that forms of haptic engagement can effectively enrich this experience and be used as a means of communication. It is no surprise that after VR’s success with audio-visual modalities, haptics are the natural next step.
+This project involve modeling groundwater flow around pumping wells in confined and unconfined aquifers using discharge potential theory. Building on the analytical framework presented by [Korkmaz (2017)](https://www.ewra.net/ew/pdf/EW_2017_57_52.pdf), the study focuses on steady-state flow in confined, unconfined, and combined aquifer systems by leveraging the linearity of Laplace’s equation and the principle of superposition. The analytical solutions are extended to heterogeneous and anisotropic aquifers through coordinate transformations. Additionally, the classical Theis equation is employed to model transient (time-dependent) flow around two pumping wells in an unconfined aquifer system.
+
+The implementation begins with a 1D solution for groundwater flow using discharge potential in both confined and unconfined zones, followed by a 2D radial flow model around a single well. Discharge potential and stream function solutions for a single well are generalized to two-well systems using superposition for both homogeneous isotropic and heterogeneous anisotropic aquifers. The final segment of the code implements transient flow modeling to compute the evolution of hydraulic head and discharge potential over time.
 
 ---
 
-##### Figure 2: RHapTor Hardware on an Occulus Rift S
+##### Figure 1: Flownet around a single well (Discharge potential, Stream function, and Hydraulic head)
 
-![](project.png)
+![](pic1.png)
 
 ---
 
