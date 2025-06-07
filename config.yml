@@ -73,7 +73,8 @@ params:
     enabled: true
     # imageUrl: "in_the_name_of_Allah.jpeg"
     # imageUrl: "/images/in_the_name_of_Allah.jpeg"
-    imageUrl: "https://hoyekan.github.io/in_the_name_of_Allah.jpeg"
+    # imageUrl: "https://hoyekan.github.io/in_the_name_of_Allah.jpeg"
+    imageUrl: "https://raw.githubusercontent.com/hoyekan/hoyekan.github.io/main/static/in_the_name_of_Allah.jpeg"
     imageWidth: 170
     imageHeight: 55
     imageTitle: "In the name of Allah"
