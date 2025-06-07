@@ -1,5 +1,5 @@
 ---
-title: "Modelling Fluid Flow with Multiple Injection Wells" 
+title: "Modeling Groundwater Flow Around Wells with Discharge Potential"
 
 venue: "For GEOP 629 in Term 242"
 
@@ -13,7 +13,9 @@ author: ["Oyekan Hammed"]
 
 description: "" 
 
-summary: "We augment a virtual reality headset to include two motor-driven discs, which induce a controllable gyroscopic torque on the wearer’s head." 
+description: "Analytical and numerical exploration of groundwater flow in confined, unconfined, and combined aquifer systems using discharge potential theory."
+
+summary: "A Mathematica-based study of groundwater flow around wells using analytical discharge potential formulations for steady-state and transient conditions in both isotropic and anisotropic aquifers."
 
 cover:
     image: "project.png"
