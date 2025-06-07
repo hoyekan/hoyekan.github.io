@@ -43,7 +43,6 @@ A collection of photos and video highlights...
   border-radius: 8px; /* Matches image styling */
   box-shadow: 0 2px 6px rgba(0,0,0,0.15); 
 }
-
 </style>
 
 
