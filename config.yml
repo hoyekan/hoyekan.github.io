@@ -48,6 +48,7 @@ menu:
 params:
   description: "Still learning. Still building."
   author: "OYEKAN, Hammed"
+  googleAnalyticsID: "G-B8KN0K7HHZ"
   DateFormat: "January 2, 2006"
   defaultTheme: "light"
   hideFooter: false
