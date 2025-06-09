@@ -134,7 +134,8 @@ params:
     hiddenInSingle: true
   label:
     text: "OYEKAN, Hammed A."
-    icon: "/favicon.ico"
+    icon: "/kfupm.ico"
+    # icon: "/favicon.ico"
     # icon: "/favicon-whale.ico"
     iconHeight: 18
       
