@@ -27,6 +27,7 @@ cover:
 + [Code 1](https://github.com/hoyekan/hoyekan.github.io/blob/main/content/projects/project2/Acoustic_Wave_Modelling.ipynb)
 + [Code 2](https://github.com/hoyekan/hoyekan.github.io/blob/main/content/projects/project2/2D%20Acoustic%20Wave%20Equation.ipynb)
 + [Code 2](/projects/project2/2D%20Acoustic%20Wave%20Equation.py)
+  The velocity models (model1.npy and model2.npy) used in the modelling can be downloaded [here](/projects/project2/)
 
 ---
 
