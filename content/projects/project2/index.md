@@ -11,7 +11,7 @@ author: ["Oyekan Hammed"]
 
 description: "2D Acoustic Wave Modelling"
 
-summary: "A Mathematica-based study of groundwater flow around wells using analytical discharge potential formulations for steady-state and transient conditions in both isotropic and anisotropic aquifers."
+summary: "Modelling of 2D acoustic wave equation in a homogeneous model and two-layers velocity model"
 
 cover:
     image: "acoustic.png"
@@ -24,8 +24,8 @@ cover:
 
 ##### Download
 
-+ [Project](final_project.pdf)
-+ [Code](/projects/project1/final_project.nb)
++ [Code 1](/projects/project1/final_project.nb)
++ [Code 2](/projects/project2/Acoustic%20Wave%20Modelling.ipynb)
 
 ---
 
