@@ -1,8 +1,6 @@
 ---
 title: "2D Acoustic Wave Modellingl"
 
-venue: "For GEOP 629 in Term 242"
-
 weight: 1
 
 date: 2025-05-05
