@@ -25,7 +25,7 @@ cover:
 ##### Download
 
 + [Code 1](/projects/project1/final_project.nb)
-+ [Code 2](/projects/project2/Acoustic%20Wave%20Modelling.ipynb)
++ [Code 2](/projects/project2/Acoustic_Wave_Modelling.ipynb)
 
 ---
 
