@@ -9,4 +9,4 @@ summary: "My software and past projects."
 
 ---
 
-Here are some of my notable projects.
+"Here are some of the projects I have embarked on."
