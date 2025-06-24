@@ -1,5 +1,5 @@
 ---
-title: "Modeling Groundwater Flow Around Wells with Discharge Potential"
+title: "2D Acoustic Wave Modellingl"
 
 venue: "For GEOP 629 in Term 242"
 
