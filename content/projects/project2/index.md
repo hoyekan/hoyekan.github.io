@@ -1,5 +1,5 @@
 ---
-title: "2D Acoustic Wave Modellingl"
+title: "2D Acoustic Wave Modelling"
 
 weight: 1
 
