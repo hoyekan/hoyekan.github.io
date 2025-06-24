@@ -3,7 +3,7 @@ title: "2D Acoustic Wave Modelling"
 
 weight: 1
 
-date: 2025-05-05
+date: 2025-02-05
 
 tags: ["Acoustic Equation", "Wave Equation", "Numerical Modelling", "Homogenous Model"]
 
