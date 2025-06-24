@@ -86,15 +86,6 @@ import time
 from tqdm import tqdm # For progress bars
 
 
-# In[ ]:
-
-
-
-
-
-# In[23]:
-
-
 def plot(title,t,p,tlabel):
     plt.figure()
     plt.plot(t,p,'b-')
@@ -142,15 +133,6 @@ P_source = np.sqrt(fft(p_source).real**2 + fft(p_source).imag**2) # Plot source 
 # plot("Source spectrum",ff,P_source,"Frequency (Hz)")
 
 p_source.shape
-
-
-# In[ ]:
-
-
-
-
-
-# In[24]:
 
 
 nt = 1000
@@ -201,15 +183,6 @@ plt.ylabel("Amplitude")
 plt.grid()
 
 source_term.shape
-
-
-# In[ ]:
-
-
-
-
-
-# In[25]:
 
 
 def generate_shot_gathers_acoustic_wave(velocity_models, dx=10.0, dz=10.0, num_receivers=70, num_shots=5):
@@ -397,14 +370,11 @@ def generate_shot_gathers_acoustic_wave(velocity_models, dx=10.0, dz=10.0, num_r
     return shot_gathers
 
 
-# In[26]:
-
-
 if __name__ == "__main__":
     
     # synthetic velocity models - Shape: (500, 1, 70, 70)
-    velocity_models = np.load('C:/Users/g202204900/OneDrive - KFUPM/Desktop/Kaggle Competition/OpenFWI/train_samples/FlatVel_A/model/model2.npy')
-#     velocity_models = np.load('C:/Users/g202204900/OneDrive - KFUPM/Desktop/Kaggle Competition/OpenFWI/train_samples/FlatVel_A/model/model1.npy')
+    velocity_models = np.load('./model2.npy')
+#     velocity_models = np.load('./model1.npy')
     
     # print('Velocity map size:', velocity_models.shape)
     
@@ -415,15 +385,7 @@ if __name__ == "__main__":
     np.save("synthetic_shot_gathers.npy", shot_gathers)
 
 
-# In[ ]:
-
-
-
-
-
 # ## Visualization
-
-# In[27]:
 
 
 num_receivers = 70
@@ -459,17 +421,8 @@ plt.tight_layout()
 plt.show()
 
 
-# In[ ]:
-
-
-
-
-
-# In[28]:
-
-
-real_data = np.load('C:/Users/g202204900/OneDrive - KFUPM/Desktop/Kaggle Competition/OpenFWI/train_samples/FlatVel_A/data/data2.npy')
-# real_data = np.load('C:/Users/g202204900/OneDrive - KFUPM/Desktop/Kaggle Competition/OpenFWI/train_samples/FlatVel_A/data/data1.npy')
+real_data = np.load('./data2.npy')
+# real_data = np.load('./data1.npy')
 
 syn_data = np.load("./synthetic_shot_gathers.npy")
 
@@ -502,29 +455,9 @@ plt.tight_layout()
 plt.show()
 
 
-# In[ ]:
-
-
-
-
-
-# In[29]:
-
 
 # shot_gathers = np.load("./synthetic_shot_gathers.npy").shape; print(shot_gathers) # Shape of the recorded data
 # print(np.min(np.load("./synthetic_shot_gathers.npy")))
 # print(np.max(np.load("./synthetic_shot_gathers.npy")))
 # np.max(np.load("./synthetic_shot_gathers.npy")[14, 4,:,:])
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
