@@ -26,6 +26,7 @@ cover:
 
 + [Code 1](/projects/project1/final_project.nb)
 + [Code 2](/projects/project2/Acoustic_Wave_Modelling.ipynb)
++ [Code 3](https://github.com/hoyekan/hoyekan.github.io/blob/main/content/projects/project2/Acoustic_Wave_Modelling.ipynb)
 
 ---
 
