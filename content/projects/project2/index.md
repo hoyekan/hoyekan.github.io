@@ -11,7 +11,7 @@ tags: ["Acoustic Equation", "Wave Equation", "Numerical Modelling", "Homogenous 
 
 author: ["Oyekan Hammed"]
 
-description: "Analytical and numerical exploration of groundwater flow in confined, unconfined, and combined aquifer systems using discharge potential theory."
+description: "2D Acoustic Wave Modelling"
 
 summary: "A Mathematica-based study of groundwater flow around wells using analytical discharge potential formulations for steady-state and transient conditions in both isotropic and anisotropic aquifers."
 
