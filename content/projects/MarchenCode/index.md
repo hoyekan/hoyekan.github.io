@@ -27,7 +27,6 @@ cover:
 + [Green Function Estimation 1](/projects/project2/Acoustic_Wave_Modelling.py)
 + [Green Function Estimation 2](/projects/project2/Acoustic_Wave_Modelling.py)
 + [Marchenko Imaging](/projects/project2/2D%20Acoustic%20Wave%20Equation.py) <br>
-  The velocity models (`model1.npy` and `model2.npy`) used in the modelling can be downloaded [here](https://github.com/hoyekan/hoyekan.github.io/tree/main/content/projects/project2)
 
 ---
 
