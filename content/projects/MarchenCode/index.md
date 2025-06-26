@@ -27,7 +27,7 @@ cover:
 
 + [Green Function Estimation 1](/projects/project2/Acoustic_Wave_Modelling.py)
 + [Green Function Estimation 2](/projects/project2/Acoustic_Wave_Modelling.py)
-+ [Marchenko Imaging](/projects/MarchenCode/Marchenko_Imaging.py) <br>
++ [Marchenko Imaging](projects/MarchenCode/Marchenko_Imaging.py) <br>
 
 ---
 
