@@ -18,7 +18,7 @@ cover:
     alt: "Marchenko Imaging"
     relative: true
 
-showToc: true
+# showToc: true
 ---
 
 ---
