@@ -24,9 +24,9 @@ cover:
 ---
 
 ##### Download
-<!--
-+ [Green Function Estimation 1](/projects/project2/Acoustic_Wave_Modelling.py)
-+ [Green Function Estimation 2](/projects/project2/Acoustic_Wave_Modelling.py)-->
+
++ [Green Function Estimation 1](/projects/project3/Acoustic_Wave_Modelling.py)
++ [Green Function Estimation 2](/projects/project3/Acoustic_Wave_Modelling.py)
 + [Marchenko Imaging](/projects/project3/Marchenko_Imaging.py)
 
 ---
