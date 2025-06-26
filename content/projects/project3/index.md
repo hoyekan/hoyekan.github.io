@@ -27,9 +27,6 @@ cover:
 
 <!--The input files used in the codes below can be downloaded here. The `DATA` folder contains 2 sub-folders, `DAT` folder which contain `.dat` extension files and `MAT` folder which contains `.mat` extension files. The codes below used the files in the MAT folder. Files in the DAT folder are the original data provided by original authors. There's absolutely no need for users of the python codes below to run the `data_prepration()` function in the code unless they want to work with `.npy` files. -->
 
-
----
-
 The input files used in the code below can be downloaded [here](goal.com). The `DATA` folder contains two sub-folders:  
 - `DAT` folder containing files with `.dat` extensions  
 - `MAT` folder containing files with `.mat` extensions  
