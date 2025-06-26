@@ -25,7 +25,7 @@ cover:
 
 ##### Download <br>
 
-The input files used in the code below can be downloaded [here](goal.com). The `DATA` folder contains two sub-folders:  
+The input files used in the code below can be downloaded [here](https://drive.google.com/drive/folders/1SOQUvALC9upk8hrCzLSN_JkUvkq5ezh_?usp=sharing). The `DATA` folder contains two sub-folders:  
 - `DAT` folder containing files with `.dat` extensions  
 - `MAT` folder containing files with `.mat` extensions  
 
