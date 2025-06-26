@@ -76,6 +76,6 @@ The progress bar reveals the computation is **`super slow`**. It should be noted
 
 ##### Key Reference
 
-`Lomas, Angus, and Andrew Curtis`. "An introduction to Marchenko methods for imaging." *Geophysics* 84, no. 2 (2019): F35-F45.
+`Lomas, Angus, and Andrew Curtis`. "***An introduction to Marchenko methods for imaging.***" *Geophysics* 84, no. 2 (2019): F35-F45.
 
 ---
