@@ -3,7 +3,7 @@ title: "Modeling Groundwater Flow Around Wells with Discharge Potential"
 
 venue: "For GEOP 629 in Term 242"
 
-weight: 2
+weight: 3
 
 date: 2025-05-05
 
