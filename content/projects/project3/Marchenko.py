@@ -293,87 +293,92 @@ os.makedirs(mat_dir, exist_ok=True)
 # In[1]:
 
 
-# """
-# This script prepares data for Marchenko method calculations. It only needs to be run once.
+# def data_preparation():
+#     """
+#     This script prepares data for Marchenko method calculations. It only needs to be run once.
+    
+#     This code is the python version of the MATLAB Code that accompanies the paper:
+#     An introduction to Marchenko methods for imaging
+#     by Angus Lomas and Andrew Curtis
+#     https://doi.org/10.1190/geo2018-0068.1
+    
+#     The SEG version of this code may be found at:
+#     http://software.seg.org/2019/0002
+#     """
+    
+#     ######################
+#     # LOAD AND SAVE DATA #
+#     ######################
+    
+#     # Function to load all .dat files with appropriate delimiter handling
+#     def load_dat_file(filename):
+#         """Load .dat file with automatic delimiter detection"""
+#         return np.loadtxt(os.path.join(dat_dir, filename), delimiter=",")
+    
+#     print("Starting data preparation...")
+    
+#     ############################################
+#     # Load and reshape the base reflectivity (R)
+#     print("Processing reflectivity data...")
+#     sg = load_dat_file('ICCR_marchenko_R_base.dat')       # load base reflectivity (R)
+#     sg = sg.reshape((3001, 188, 94), order='F')           # reshape reflectivity (R)
+    
+#     # Create the full reflectivity by mirroring across receiver and source dimensions
+#     sg = np.concatenate([sg, np.flip(np.flip(sg, axis=1), axis=2)], axis=2)    # Uses a list ([...]) as the input to np.concatenate.
+#     # sg = np.concatenate((sg, np.flip(np.flip(sg, axis=1), axis=2)), axis=2)    # You could as well use a tuple ((...)) as the input.
+    
+#     # Save reflectivity (R) to .mat and .npy format
+#     np.save(os.path.join(mat_dir, 'ICCR_marchenko_R.npy'), sg)      # save reflectivity (R)
+#     savemat(os.path.join(mat_dir, 'ICCR_marchenko_R.mat'), {'sg': sg})
+    
+#     ############################################
+#     # Load and reshape base eikonal data
+#     print("Processing eikonal data...")
+#     eik = load_dat_file('ICCR_marchenko_eik_base.dat')
+#     eik = eik.reshape((201, 375, 94), order='F')
+    
+#     # Create the full eikonal by mirroring across receiver and source dimensions
+#     eik = np.concatenate((eik, np.flip(np.flip(eik, axis=1), axis=2)), axis=2)
+    
+#     # Save eikonal to .mat and .npy format
+#     np.save(os.path.join(mat_dir, 'ICCR_marchenko_eik.npy'), eik)
+#     savemat(os.path.join(mat_dir, 'ICCR_marchenko_eik.mat'), {'eik': eik})
+    
+#     ############################################
+#     # Process other data files
+#     print("Processing remaining data files...")
+#     dat_files = [
+#         ('ICCR_marchenko_GT.dat',    'gt',    'ICCR_marchenko_GT'),
+#         ('ICCR_marchenko_TD.dat',    'td',    'ICCR_marchenko_TD'),
+#         ('ICCR_marchenko_theta.dat', 'theta', 'ICCR_marchenko_theta'),
+#         ('ICCR_marchenko_wav.dat',   'wav',   'ICCR_marchenko_wav'),
+#         ('ICCR_marchenko_vel.dat',   'vel',   'ICCR_marchenko_vel')
+#     ]
+    
+#     for filename, var_name, save_name in dat_files:
+#         data = load_dat_file(filename)
+#         np.save(os.path.join(mat_dir, f'{save_name}.npy'), data)
+#         savemat(os.path.join(mat_dir, f'{save_name}.mat'), {var_name: data})
+    
+#     # Save all data in a single .mat file for convenience
+#     print("Creating consolidated data file...")
+#     all_data = {
+#         'sg' : sg,
+#         'eik': eik,
+#         'gt' : np.load(os.path.join(mat_dir, 'ICCR_marchenko_GT.npy')),
+#         'td' : np.load(os.path.join(mat_dir, 'ICCR_marchenko_TD.npy')),
+#         'theta': np.load(os.path.join(mat_dir, 'ICCR_marchenko_theta.npy')),
+#         'wav'  : np.load(os.path.join(mat_dir, 'ICCR_marchenko_wav.npy')),
+#         'vel'  : np.load(os.path.join(mat_dir, 'ICCR_marchenko_vel.npy'))
+#     }
+#     savemat(os.path.join(mat_dir, 'ICCR_marchenko_all_data.mat'), all_data)
+    
+#     print("Data preparation complete!")
+#     print(f"Processed 7 data files")
+#     print(f"Output saved to: {mat_dir}")
 
-# This code is the python version of the MATLAB Code that accompanies the paper:
-# An introduction to Marchenko methods for imaging
-# by Angus Lomas and Andrew Curtis
-# https://doi.org/10.1190/geo2018-0068.1
-
-# The SEG version of this code may be found at:
-# http://software.seg.org/2019/0002
-# """
-
-# ######################
-# # LOAD AND SAVE DATA #
-# ######################
-
-# # Function to load all .dat files with appropriate delimiter handling
-# def load_dat_file(filename):
-#     """Load .dat file with automatic delimiter detection"""
-#     return np.loadtxt(os.path.join(dat_dir, filename), delimiter=",")
-
-# print("Starting data preparation...")
-
-# ############################################
-# # Load and reshape the base reflectivity (R)
-# print("Processing reflectivity data...")
-# sg = load_dat_file('ICCR_marchenko_R_base.dat')       # load base reflectivity (R)
-# sg = sg.reshape((3001, 188, 94), order='F')           # reshape reflectivity (R)
-
-# # Create the full reflectivity by mirroring across receiver and source dimensions
-# sg = np.concatenate([sg, np.flip(np.flip(sg, axis=1), axis=2)], axis=2)    # Uses a list ([...]) as the input to np.concatenate.
-# # sg = np.concatenate((sg, np.flip(np.flip(sg, axis=1), axis=2)), axis=2)    # You could as well use a tuple ((...)) as the input.
-
-# # Save reflectivity (R) to .mat and .npy format
-# np.save(os.path.join(mat_dir, 'ICCR_marchenko_R.npy'), sg)      # save reflectivity (R)
-# savemat(os.path.join(mat_dir, 'ICCR_marchenko_R.mat'), {'sg': sg})
-
-# ############################################
-# # Load and reshape base eikonal data
-# print("Processing eikonal data...")
-# eik = load_dat_file('ICCR_marchenko_eik_base.dat')
-# eik = eik.reshape((201, 375, 94), order='F')
-
-# # Create the full eikonal by mirroring across receiver and source dimensions
-# eik = np.concatenate((eik, np.flip(np.flip(eik, axis=1), axis=2)), axis=2)
-
-# # Save eikonal to to .mat and .npy format
-# np.save(os.path.join(mat_dir, 'ICCR_marchenko_eik.npy'), eik)
-# savemat(os.path.join(mat_dir, 'ICCR_marchenko_eik.mat'), {'eik': eik})
-
-# ############################################
-# # Process other data files
-# print("Processing remaining data files...")
-# dat_files = [
-#     ('ICCR_marchenko_GT.dat',    'gt',    'ICCR_marchenko_GT'),
-#     ('ICCR_marchenko_TD.dat',    'td',    'ICCR_marchenko_TD'),
-#     ('ICCR_marchenko_theta.dat', 'theta', 'ICCR_marchenko_theta'),
-#     ('ICCR_marchenko_wav.dat',   'wav',   'ICCR_marchenko_wav'),
-#     ('ICCR_marchenko_vel.dat',   'vel',   'ICCR_marchenko_vel')
-# ]
-
-# for filename, var_name, save_name in dat_files:
-#     data = load_dat_file(filename)
-#     np.save(os.path.join(mat_dir, f'{save_name}.npy'), data)
-#     savemat(os.path.join(mat_dir, f'{save_name}.mat'), {var_name: data})
-
-# # Save all data in a single .mat file for convenience
-# print("Creating consolidated data file...")
-# all_data = {
-#     'sg' : sg,
-#     'eik': eik,
-#     'gt' : np.load(os.path.join(mat_dir, 'ICCR_marchenko_GT.npy')),
-#     'td' : np.load(os.path.join(mat_dir, 'ICCR_marchenko_TD.npy')),
-#     'theta': np.load(os.path.join(mat_dir, 'ICCR_marchenko_theta.npy')),
-#     'wav'  : np.load(os.path.join(mat_dir, 'ICCR_marchenko_wav.npy')),
-#     'vel'  : np.load(os.path.join(mat_dir, 'ICCR_marchenko_vel.npy'))
-# }
-# savemat(os.path.join(mat_dir, 'ICCR_marchenko_all_data.mat'), all_data)
-
-# print("Data preparation complete!")
-# print(f"Output saved to: {mat_dir}")
+# if __name__ == "__main__":
+#     data_preparation()
 
 
 # ## Data Dimension
