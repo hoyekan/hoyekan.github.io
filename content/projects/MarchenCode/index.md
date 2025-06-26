@@ -11,7 +11,7 @@ author: ["Oyekan Hammed"]
 
 description: "MarchenCode"
 
-summary: "MarchenCode contains Python code to compute the Green's functions from single-sided surface reflectivity data. It also contains code to perform Marchenko-based imaging using decomposed Green’s functions (upgoing). 
+summary: "MarchenCode contains Python code to compute the Green's functions from single-sided surface reflectivity data. It also contains code to perform Marchenko-based imaging using decomposed Green’s functions (upgoing)." 
 
 cover:
     image: "marchenko.png"
