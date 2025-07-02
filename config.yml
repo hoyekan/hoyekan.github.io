@@ -1,4 +1,4 @@
-4444444baseURL: "https://hoyekan.github.io/"
+baseURL: "https://hoyekan.github.io/"
 title: "Hammed Oyekan"
 theme: "PaperMod"
 languageCode: "en-us"
@@ -88,7 +88,7 @@ params:
     enabled: true
     title: "OYEKAN, Hammed"
     subtitle: |
-      Welcome to my website! I am an aspiring computational and exploration seismologist/geophysicist. 
+      Welcome and thank you for visiting this page. I am an aspiring computational and exploration seismologist/geophysicist. 
       <br/><br/> I recently received my MSc in Geophysics (on the 31 of December, 2024) from King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia, under the supervision of <a href="https://faculty.kfupm.edu.sa/es/ashuhail/" target="_blank" style="color:#8e7bd0">Prof. Abdullatif A. Al-Shuhail</a>. 
       <br/><br/> My area of interest are in **Wave propagation**, **theoretical seismology**, **Seismic data processing/analysis**, **imaging**, and **inversion**, **Full-waveform inversion (FWI)**, and **Numerical modelling**
       <br/><br/> I am currently open to collaborations and new opportunities.
