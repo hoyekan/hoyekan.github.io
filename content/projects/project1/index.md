@@ -27,7 +27,7 @@ cover:
 ##### Download
 
 + [Project](final_project.pdf)
-+ [Code](/projects/project1/final_project.nb)
++ [Code](/projects/project1/Final_Project.nb)
 
 ---
 
