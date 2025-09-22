@@ -41,5 +41,5 @@ The tutorials in this repository aim to bridge that gap. As such, a junior or se
 + [Linearization of the Acoustic Wave Equation using the Born Approximation](Linearization_of_the_Acoustic_Wave_Equation_using_the_Born_Approximation.pdf)
 + [Time Domain Complex valued ViscoElastic Wave Equation in an Isotropic Homogenous Medium](Time_Domain_Complex_valued_ViscoElastic_Wave_Equation_in_an_Isotropic__Homogenous_Medium.pdf)
 + [Analytical Solution to 2D SH (Shear Horizontal) Wave Equation Using Cagniard–De Hoop Method](Cagniard_De_Hoop_Method_for_2D_SH_Wave.pdf)
-+ [Derivation_of_the_Damped_and_Driven_Harmonic_Oscillator](GEOP_602_Derivation_of_the_Damped_and_Driven_Harmonic_Oscillator.pdf)
++ [Derivation of the Damped and Driven Harmonic Oscillator](GEOP_602_Derivation_of_the_Damped_and_Driven_Harmonic_Oscillator.pdf)
 
