@@ -44,4 +44,5 @@ The tutorials in this repository aim to bridge that gap. As such, a junior or se
 + [Derivation of the Damped and Driven Harmonic Oscillator](GEOP_602_Derivation_of_the_Damped_and_Driven_Harmonic_Oscillator.pdf)
 + [The Elastodynamic Equation: Helmholtz Decomposition, Body Waves and Homogeneous Media Solutions](The_Elastodynamic_Equation.pdf)
 + [SH-Waves: Reflection and Transmission Coefficients, Energy Conservation and Partitioning at an Interface, and Post-Critical Reflection](SH_Waves__Reflection_and_Transmission_Coefficients__Energy_Conservation_and_Partitioning_at_an_Interface__and_Post_Critical_Reflection.pdf)
++ [P-SV Wave Reflection and Transmission Coefficients - Zoeppritz Equation Derivation](P_SV_Wave_Reflection_and_Transmission_Coefficients.pdf)
 
