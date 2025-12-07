@@ -46,4 +46,5 @@ The tutorials in this repository aim to bridge that gap. As such, a junior or se
 + [SH-Waves: Reflection and Transmission Coefficients, Energy Conservation and Partitioning at an Interface, and Post-Critical Reflection](SH_Waves__Reflection_and_Transmission_Coefficients__Energy_Conservation_and_Partitioning_at_an_Interface__and_Post_Critical_Reflection.pdf)
 + [P-SV Wave Reflection and Transmission Coefficients - Zoeppritz Equation Derivation](P_SV_Wave_Reflection_and_Transmission_Coefficients.pdf)
 + [Rayleigh Wave in Homogeneous Half Space](Rayleigh_Wave_in_Homogeneous_Half_Space.pdf)
++ [Sensitivity Kernel of Acoustic Wave Equation](Sensitivity_Kernel_of_Acoustic_Wave_Equation.pdf)
 
