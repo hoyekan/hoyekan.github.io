@@ -43,8 +43,7 @@ The theoretical framework follows the classic work of [Haskell (1953)](#haskell-
 ![](Model_1_Attenuation.png)
 
 ##### Figure 3: Attenuation Coefficient Curve (Simplified Q averaging)
-
-<b>Attenuation Coefficient Curve (Simplified Q averaging):<b> This assumes that attenuation is very small (Q>>1) and its computed using the Kolsky-Futterman model (see attached code for derivation).
+This assumes that attenuation is very small (Q>>1) and its computed using the Kolsky-Futterman model (see attached code for derivation).
 
 For small attenuation ![Q >> 1](https://latex.codecogs.com/svg.latex?Q%20%3E%3E%201), the standard formulation is:
 
