@@ -1,4 +1,3 @@
-
 ---
 title: "Dispersion and Attenuation of Love Waves in an Isotropic Viscoelastic Layers over a Half-Space"
 
