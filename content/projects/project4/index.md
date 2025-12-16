@@ -43,6 +43,23 @@ The theoretical framework follows the classic work of [Haskell (1953)](#haskell-
 ![](Model_1_Attenuation.png)
 
 ##### Figure 3: Attenuation Coefficient Curve (Simplified Q averaging)
+
+<b>Attenuation Coefficient Curve (Simplified Q averaging):<b> This assumes that attenuation is very small (Q>>1) and its computed using the Kolsky-Futterman model (see attached code for derivation).
+
+For small attenuation ![Q >> 1](https://latex.codecogs.com/svg.latex?Q%20%3E%3E%201), the standard formulation is:
+
+<img src="https://latex.codecogs.com/svg.image?\frac{1}{c^*}\approx\frac{1}{c}\left(1+\frac{i}{2Q}\right)" />
+
+where ![c*](https://latex.codecogs.com/svg.latex?c)* is the real-valued phase velocity at low loss.
+
+Starting from the wavenumber:
+
+<img src="https://latex.codecogs.com/svg.image?k=\frac{\omega}{c^*}\approx\frac{\omega}{c}\left(1+\frac{i}{2Q}\right)=\frac{\omega}{c}+i\frac{\omega}{2cQ}" />
+
+Comparing this to ![k = k_r - i\alpha](https://latex.codecogs.com/svg.latex?k%20%3D%20k_r%20-%20i%5Calpha), we immediately identify:
+
+<img src="https://latex.codecogs.com/svg.image?\boxed{\alpha\approx\frac{\omega}{2cQ}}" />
+
 ![](Model_1_Attenuation_Simplified.png)
 
 ##### Figure 4: The Love-wave modal solutions in the frequency-phase velocity-attenuation coefficient domain.
