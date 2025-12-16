@@ -52,8 +52,6 @@ The theoretical framework follows the classic work of [Haskell (1953)](#haskell-
 
 ##### Key Reference
 
-`Lomas, Angus, and Andrew Curtis`. "***An introduction to Marchenko methods for imaging.***" *Geophysics* 84, no. 2 (2019): F35-F45.
-
 `Yuan, S., Pan, L., Shi, C., Song, X., & Chen, X.` ***Computation and analysis of surface wave dispersion and attenuation in layered viscoelastic–vertical transversely isotropic media by the generalized R/T coefficient method.*** *Geophysical Journal International* 238, no. 3 (2024): 1505–1529.
 
 `Chen, K., Li, Z., Wang, M., & Sacchi, M. D.` ***Theoretical calculation of dispersion and attenuation curves of deep-guided wave in viscoelastic media.*** *Geophysical Journal International* 243, no. 3 (2025): ggaf393.
