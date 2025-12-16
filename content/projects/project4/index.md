@@ -32,7 +32,7 @@ cover:
 
 ##### Abstract
 
-The theoretical framework follows the classic work of [Haskell (1953)](#haskell-1953) and [Thomson (1950)](#thomson-1950) as implemented in [Chen k. et al. (2025)](#Chenetal2025). Model 1 used in my project is from [Yuan S. et al (2024)](#Yuanetal) (Table 4 of [Yuan S. et al (2024)](#Yuanetal)). The attanuation coefficient is computed via complex velocity approach 
+The theoretical framework follows the classic work of [Haskell (1953)](#haskell-1953) and [Thomson (1950)](#thomson-1950) as implemented in [Chen k. et al. (2025)](#Chenetal2025). Model 1, as well as model 3 and 4, used in my project are from [Yuan S. et al (2024)](#Yuanetal). The attanuation coefficient is computed via complex velocity approach 
 
 ---
 
