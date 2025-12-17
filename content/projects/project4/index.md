@@ -64,6 +64,27 @@ Comparing this to ![k = k_r - i\alpha](https://latex.codecogs.com/svg.latex?k%20
 <img src="https://latex.codecogs.com/svg.image?\boxed{\alpha\approx\frac{\omega}{2cQ}}" /> -->
 
 
+For small attenuation ($Q \gg 1$), the standard formulation is:
+
+$$
+\frac{1}{c^*} \approx \frac{1}{c} \left( 1 - \frac{i}{2Q} \right)
+$$
+
+where $c$ is the real-valued phase velocity at low loss.
+
+Starting from the wavenumber:
+
+$$
+k = \frac{\omega}{c^*} \approx \frac{\omega}{c}
+\left( 1 - \frac{i}{2Q} \right)
+= \frac{\omega}{c} - i \frac{\omega}{2cQ}
+$$
+
+Comparing this to $k = k_r - i\alpha$, we identify:
+
+$$
+\boxed{\alpha \approx \frac{\omega}{2cQ}}
+$$
 
 
 
