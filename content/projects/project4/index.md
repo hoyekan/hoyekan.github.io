@@ -17,7 +17,6 @@ cover:
     image: "Dispersion.png"
     alt: "Dispersion and Attenuation"
     relative: true
-
 ---
 
 ---
