@@ -76,7 +76,7 @@ Here are some of the projects I have embarked on.
 
   <div class="project-card">
     <img src="/images/groundwater.png" alt="Equipotential and Streamlines around Wells">
-    <h3>Modelling groundwater flow around wells in a confined, unconfined, and combined aquifer systems using discharge potential theory.</h3>h3>
+    <h3>Modelling groundwater flow around wells in a confined, unconfined, and combined aquifer systems using discharge potential theory.</h3>
     <p>
       A Mathematica-based study of groundwater flow around wells using analytical discharge potential formulations 
       for steady-state and transient conditions in both isotropic and anisotropic aquifers.
