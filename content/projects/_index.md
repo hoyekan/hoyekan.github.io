@@ -8,30 +8,59 @@ _build:
 ---
 
 <style>
+/* Container for the projects */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
   gap: 2rem;
   margin-top: 2rem;
+  width: 100%;
+  grid-auto-rows: auto; /* adjust row height automatically */
 }
 
+/* Responsive: 1 column on smaller screens */
 @media (max-width: 900px) {
   .projects-grid {
     grid-template-columns: 1fr;
   }
 }
 
+/* Individual project card */
 .project-card {
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 1.5rem;
   background: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+/* Project images */
 .project-card img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+/* Project title */
+.project-card h3 {
+  margin: 0.5rem 0;
+}
+
+/* Project links */
+.project-card a {
+  margin-top: 1rem;
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
 }
 </style>
 
@@ -53,7 +82,6 @@ Here are some of the projects I have embarked on.
     <a href="/projects/project4/">View project →</a>
   </div>
 
-
   <div class="project-card">
     <img src="/images/marchenko.png" alt="Marchenko Imaging">
     <h3>MarchenCode</h3>
@@ -65,7 +93,6 @@ Here are some of the projects I have embarked on.
     <a href="/projects/project3/">View project →</a>
   </div>
 
-
   <div class="project-card">
     <img src="/images/acoustic.png" alt="Acoustic Wave Modelling">
     <h3>2D Acoustic Wave Modelling</h3>
@@ -75,7 +102,6 @@ Here are some of the projects I have embarked on.
     <p><strong>February, 2025 · Oyekan Hammed</strong></p>
     <a href="/projects/project2/">View project →</a>
   </div>
-
 
   <div class="project-card">
     <img src="/images/groundwater.png" alt="Equipotential and Streamlines around Wells">
@@ -89,4 +115,3 @@ Here are some of the projects I have embarked on.
   </div>
 
 </div>
-
