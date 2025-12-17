@@ -47,7 +47,7 @@ $$
 k = \frac{\omega}{c^*}
 $$
 
-It follows that if $ k $ is complex ($ k = k_r - i\alpha $), $ c^* $ must also be complex and vice versa. Let's express the complex velocity in terms of its real and imaginary parts. The standard convention is:
+It follows that if \( k \) is complex ($ k = k_r - i\alpha $), $ c^* $ must also be complex and vice versa. Let's express the complex velocity in terms of its real and imaginary parts. The standard convention is:
 
 $$
 c^* = c_r + i c_i
