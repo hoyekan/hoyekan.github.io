@@ -23,10 +23,6 @@ cover:
 
 ##### Download
 
-<!-- + [Code 1](/projects/project2/Acoustic_Wave_Modelling.py)
-+ [Code 2](/projects/project2/2D%20Acoustic%20Wave%20Equation.py) <br>
-  The velocity models (`model1.npy` and `model2.npy`) used in the modelling can be downloaded [here](https://github.com/hoyekan/hoyekan.github.io/tree/main/content/projects/project2) -->
-
 + [Dispersion and Attenuation of Love Waves in a Stack of N Isotropic Viscoelastic Layers over a Half-Space – A Thomson–Haskell Propagator Matrix Approach](/projects/project4/dispersion_love_waves_thomson_haskell.pdf)
 + [Code](/projects/project4/Complex_Velocity_Method.py)
 
@@ -34,7 +30,7 @@ cover:
 
 ##### Abstract
 
-This project presents a comprehensive modelling approach for analyzing Love wave propagation in a stratified medium consisting of $N$ isotropic viscoelastic shear layers overlying a semi-infinite half-space. The theoretical formulation employs the Thomson-Haskell propagator matrix method ([Haskell (1953)](#haskell-1953) and [Thomson (1950)](#thomson-1950)) as implemented in [Chen k. et al. (2025)](#Chenetal2025) to relate state vectors—comprising displacement and shear stress—across layer interfaces, effectively linking the half-space to the free surface.To account for realistic material damping, the study incorporates the Generalized Maxwell Body (GMB) model (Maxwell-Wiechert model), which utilizes a superposition of multiple Maxwell elements to simulate a frequency-independent quality factor ($Q$) over the seismic frequency bandwidth.The project derives the complex dispersion equation by applying traction-free boundary conditions at the surface and radiation conditions in the half-space. Finally, a numerical algorithm is implemented to solve the dispersion function, generating phase velocity and attenuation coefficient curves that characterize the dispersive and dissipative properties of the viscoelastic multilayered system.
+This project presents a comprehensive modelling approach for analyzing Love wave propagation in a stratified medium consisting of $N$ isotropic viscoelastic shear layers overlying a semi-infinite half-space. The theoretical formulation employs the Thomson-Haskell propagator matrix method ([Haskell (1953)](#haskell-1953) and [Thomson (1950)](#thomson-1950)) as implemented in [Chen k. et al. (2025)](#Chenetal2025) to relate state vectors—comprising displacement and shear stress—across layer interfaces, effectively linking the half-space to the free surface. A complete framework is developed, including the derivation of viscoelastic constitutive relations in both time and frequency domains, formulation of the SH-wave equation, and construction of layer propagator matrices. The global system matrix is assembled by cascading individual layer matrices, and dispersion relations are obtained by enforcing stress-free surface and radiation conditions in the half-space. To account for realistic material damping, the study incorporates the Generalized Maxwell Body (GMB) model (Maxwell-Wiechert model), which utilizes a superposition of multiple Maxwell elements to simulate a frequency-independent quality factor ($Q$) over the seismic frequency bandwidth. The project derives the complex dispersion equation by applying traction-free boundary conditions at the surface and radiation conditions in the half-space. Finally, a numerical algorithm is implemented to solve the dispersion function, generating phase velocity dispersion and attenuation coefficient curves that characterize the dispersive and dissipative properties of the viscoelastic multilayered system.
 
 Model 1, Model 3, and 4 used in the project are from [Yuan S. et al (2024)](#Yuanetal). The attenuation coefficient is computed via complex velocity and a simplified Q averaging approach.
 
