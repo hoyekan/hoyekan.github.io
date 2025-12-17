@@ -29,7 +29,7 @@ cover:
   The velocity models (`model1.npy` and `model2.npy`) used in the modelling can be downloaded [here](https://github.com/hoyekan/hoyekan.github.io/tree/main/content/projects/project2) -->
 
 + [Dispersion and Attenuation of Love Waves in a Stack of N Isotropic Viscoelastic Layers over a Half-Space – A Thomson–Haskell Propagator Matrix Approach](/projects/project4/dispersion_love_waves_thomson_haskell.pdf)
-+ [Code](/projects/project4/Complex_Velocity_Method.ipynb)
++ [Code](/projects/project4/Complex_Velocity_Method.py)
 
 ---
 
