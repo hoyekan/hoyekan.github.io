@@ -43,13 +43,10 @@ Model 1, as well as model 3 and 4, used in my project are from [Yuan S. et al (2
 
 ##### Figure 2: Attenuation Coefficient Curve (Using Complex Velocity Method)
 
-We can rearrange the definition of the complex velocity to solve for $ k $:
-
 $$
 k = \frac{\omega}{c^*}
 $$
-
-Since $ k $ is complex ($ k = k_r - i\alpha $), $ c^* $ must also be complex. Let's express the complex velocity in terms of its real and imaginary parts. The standard convention is:
+It follows that if $ k $ is complex ($ k = k_r - i\alpha $), $ c^* $ must also be complex and vice versa. Let's express the complex velocity in terms of its real and imaginary parts. The standard convention is:
 
 $$
 c^* = c_r + i c_i
@@ -77,7 +74,7 @@ Now, equate the real and imaginary parts from both sides:
 From the imaginary part, we get the primary formula:
 
 $$
-\boxed{\alpha = \frac{\omega \, (c_i)}{c_r^2 + c_i^2}}
+\boxed{\alpha = \frac{\omega c_i}{c_r^2 + c_i^2}}
 $$
 
 $$
