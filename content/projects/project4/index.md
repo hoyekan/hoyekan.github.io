@@ -42,7 +42,56 @@ Model 1, as well as model 3 and 4, used in my project are from [Yuan S. et al (2
 ![](Model_1_PhaseVelocity.png)
 
 ##### Figure 2: Attenuation Coefficient Curve (Using Complex Velocity Method)
+
+We can rearrange the definition of the complex velocity to solve for $ k $:
+
+$$
+k = \frac{\omega}{c^*}
+$$
+
+Since $ k $ is complex ($ k = k_r - i\alpha $), $ c^* $ must also be complex. Let's express the complex velocity in terms of its real and imaginary parts. The standard convention is:
+
+$$
+c^* = c_r + i c_i
+$$
+
+where $ c_i $ is typically negative, representing loss.
+
+Now, let's find the formula for $ \alpha $:
+
+$$
+k = k_r - i\alpha = \frac{\omega}{c^*} = \frac{\omega}{c_r + i c_i}
+$$
+
+To separate the real and imaginary parts, we multiply the numerator and denominator by the complex conjugate of the denominator:
+
+$$
+k_r - i\alpha = \frac{\omega}{(c_r + i c_i)} \cdot \frac{(c_r - i c_i)}{(c_r - i c_i)} = \frac{\omega (c_r - i c_i)}{c_r^2 + c_i^2}
+$$
+
+Now, equate the real and imaginary parts from both sides:
+
+- **Real Part:** $ k_r = \dfrac{\omega c_r}{c_r^2 + c_i^2} $
+- **Imaginary Part:** $ -\alpha = \dfrac{-\omega c_i}{c_r^2 + c_i^2} $
+
+From the imaginary part, we get the primary formula:
+
+$$
+\boxed{\alpha = \frac{\omega \, (c_i)}{c_r^2 + c_i^2}}
+$$
+
+$$
+\alpha = \frac{\omega , \text{Im}(c)}{|c|^2} \approx \frac{\omega c_i}{c_r^2} \quad \text{for small } c_i
+$$
+
+For most geophysical problems, $c_i \ll c_r$, so this is valid.
+
+This is the general formula for the attenuation coefficient in terms of the complex velocity $ c^* = c_r + i c_i $
+
 ![](Model_1_Attenuation.png)
+
+
+---
 
 ##### Figure 3: Attenuation Coefficient Curve (Simplified Q averaging)
 This assumes that attenuation is very small $(Q \gg 1)$ and its computed using the Kolsky-Futterman model (see attached code for derivation).
@@ -68,8 +117,6 @@ Comparing this to $k = k_r + i\alpha$, we identify:
 $$
 \boxed{\alpha \approx \frac{\omega}{2cQ}}
 $$
-
-
 
 
 ![](Model_1_Attenuation_Simplified.png)
