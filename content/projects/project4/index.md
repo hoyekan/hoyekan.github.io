@@ -45,7 +45,7 @@ Model 1, as well as model 3 and 4, used in my project are from [Yuan S. et al (2
 ![](Model_1_Attenuation.png)
 
 ##### Figure 3: Attenuation Coefficient Curve (Simplified Q averaging)
-This assumes that attenuation is very small (Q>>1) and its computed using the Kolsky-Futterman model (see attached code for derivation).
+This assumes that attenuation is very small $(Q \gg 1)$ and its computed using the Kolsky-Futterman model (see attached code for derivation).
 
 <!--
 
