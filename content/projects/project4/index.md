@@ -76,7 +76,7 @@ Starting from the wavenumber:
 
 $$
 k = \frac{\omega}{c^*} \approx \frac{\omega}{c}
-\left( 1 - \frac{i}{2Q} \right)
+\left( 1 + \frac{i}{2Q} \right)
 = \frac{\omega}{c} + i \frac{\omega}{2cQ}
 $$
 
