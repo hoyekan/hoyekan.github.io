@@ -34,7 +34,7 @@ cover:
 
 This project presents a comprehensive modelling approach for analyzing Love wave propagation in a stratified medium consisting of $N$ isotropic viscoelastic shear layers overlying a semi-infinite half-space. The theoretical formulation employs the Thomson-Haskell propagator matrix method ([Haskell (1953)](#haskell-1953) and [Thomson (1950)](#thomson-1950)) as implemented in [Chen k. et al. (2025)](#Chenetal2025) to relate state vectors—comprising displacement and shear stress—across layer interfaces, effectively linking the half-space to the free surface.To account for realistic material damping, the study incorporates the Generalized Maxwell Body (GMB) model (Maxwell-Wiechert model), which utilizes a superposition of multiple Maxwell elements to simulate a frequency-independent quality factor ($Q$) over the seismic frequency bandwidth.The project derives the complex dispersion equation by applying traction-free boundary conditions at the surface and radiation conditions in the half-space. Finally, a numerical algorithm is implemented to solve the dispersion function, generating phase velocity and attenuation coefficient curves that characterize the dispersive and dissipative properties of the viscoelastic multilayered system.
 
-The theoretical framework follows the classic work of [Haskell (1953)](#haskell-1953) and [Thomson (1950)](#thomson-1950) as implemented in [Chen k. et al. (2025)](#Chenetal2025). Model 1, as well as model 3 and 4, used in my project are from [Yuan S. et al (2024)](#Yuanetal). The attanuation coefficient is computed via complex velocity approach 
+Model 1, as well as model 3 and 4, used in my project are from [Yuan S. et al (2024)](#Yuanetal). The attanuation coefficient is computed via complex velocity approach 
 
 ---
 
@@ -46,6 +46,8 @@ The theoretical framework follows the classic work of [Haskell (1953)](#haskell-
 
 ##### Figure 3: Attenuation Coefficient Curve (Simplified Q averaging)
 This assumes that attenuation is very small (Q>>1) and its computed using the Kolsky-Futterman model (see attached code for derivation).
+
+<!--
 
 For small attenuation ![Q >> 1](https://latex.codecogs.com/svg.latex?Q%20%3E%3E%201), the standard formulation is:
 
@@ -59,7 +61,12 @@ Starting from the wavenumber:
 
 Comparing this to ![k = k_r - i\alpha](https://latex.codecogs.com/svg.latex?k%20%3D%20k_r%20-%20i%5Calpha), we immediately identify:
 
-<img src="https://latex.codecogs.com/svg.image?\boxed{\alpha\approx\frac{\omega}{2cQ}}" />
+<img src="https://latex.codecogs.com/svg.image?\boxed{\alpha\approx\frac{\omega}{2cQ}}" /> -->
+
+
+
+
+
 
 ![](Model_1_Attenuation_Simplified.png)
 
