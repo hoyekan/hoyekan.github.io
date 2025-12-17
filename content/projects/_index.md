@@ -50,7 +50,6 @@ Here are some of the projects I have embarked on.
     <a href="/projects/project4/">View project →</a>
   </div>
 
-  ---
 
   <div class="project-card">
     <img src="/images/marchenko.png" alt="Marchenko Imaging">
@@ -63,7 +62,6 @@ Here are some of the projects I have embarked on.
     <a href="/projects/project3/">View project →</a>
   </div>
 
----
 
   <div class="project-card">
     <img src="/images/acoustic.png" alt="Acoustic Wave Modelling">
@@ -75,7 +73,6 @@ Here are some of the projects I have embarked on.
     <a href="/projects/project2/">View project →</a>
   </div>
 
----
 
   <div class="project-card">
     <img src="/images/groundwater.png" alt="Equipotential and Streamlines around Wells">
