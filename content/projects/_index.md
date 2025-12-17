@@ -2,6 +2,9 @@
 title: "Projects"
 date: 2025-06-01
 summary: "My software and past projects."
+
+_build:
+  list: false
 ---
 
 <style>
