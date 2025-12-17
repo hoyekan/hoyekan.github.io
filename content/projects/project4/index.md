@@ -34,7 +34,7 @@ cover:
 
 This project presents a comprehensive modelling approach for analyzing Love wave propagation in a stratified medium consisting of $N$ isotropic viscoelastic shear layers overlying a semi-infinite half-space. The theoretical formulation employs the Thomson-Haskell propagator matrix method ([Haskell (1953)](#haskell-1953) and [Thomson (1950)](#thomson-1950)) as implemented in [Chen k. et al. (2025)](#Chenetal2025) to relate state vectors—comprising displacement and shear stress—across layer interfaces, effectively linking the half-space to the free surface.To account for realistic material damping, the study incorporates the Generalized Maxwell Body (GMB) model (Maxwell-Wiechert model), which utilizes a superposition of multiple Maxwell elements to simulate a frequency-independent quality factor ($Q$) over the seismic frequency bandwidth.The project derives the complex dispersion equation by applying traction-free boundary conditions at the surface and radiation conditions in the half-space. Finally, a numerical algorithm is implemented to solve the dispersion function, generating phase velocity and attenuation coefficient curves that characterize the dispersive and dissipative properties of the viscoelastic multilayered system.
 
-Model 1, as well as model 3 and 4, used in my project are from [Yuan S. et al (2024)](#Yuanetal). The attanuation coefficient is computed via complex velocity approach 
+Model 1, Model 3, and 4 used in the project are from [Yuan S. et al (2024)](#Yuanetal). The attenuation coefficient is computed via complex velocity and a simplified Q averaging approach.
 
 ---
 
@@ -47,7 +47,7 @@ $$
 k = \frac{\omega}{c^*}
 $$
 
-It follows that if \( k \) is complex ($ k = k_r - i\alpha $), $ c^* $ must also be complex and vice versa. Let's express the complex velocity in terms of its real and imaginary parts. The standard convention is:
+It follows that if $ k $ is complex ($ k = k_r - i\alpha $), $ c^* $ must also be complex and vice versa. Let's express the complex velocity in terms of its real and imaginary parts. The standard convention is:
 
 $$
 c^* = c_r + i c_i
