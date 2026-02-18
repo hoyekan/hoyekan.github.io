@@ -12,7 +12,7 @@ description: "Teaching experience."
 #### Teaching Assitant
 - **Undergraduate**
   - GEOP 102 Essentials of Geophysics (Spring 2023)
-    [Prof. Peter R. Mora](https://scholar.google.com/citations?hl=en&user=nDphQ1sAAAAJ&view_op=list_works&sortby=pubdate)
+    - **Instructor**: [Prof. Peter R. Mora](https://scholar.google.com/citations?hl=en&user=nDphQ1sAAAAJ&view_op=list_works&sortby=pubdate)
 - **Masters**
   - GEOP 510 Seismic Data Analysis (Fall 2024)
     - **Instructor**: [Prof. Abdullatif A. Al-Shuhail](https://faculty.kfupm.edu.sa/es/ashuhail/)
