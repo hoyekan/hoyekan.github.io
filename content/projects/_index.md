@@ -7,6 +7,8 @@ _build:
   list: false
 ---
 
+<!-- 
+
 <style>
 /* Container for the projects */
 .projects-grid {
@@ -119,3 +121,8 @@ Here are some of the projects I have embarked on.
   </div>
 
 </div>
+
+-->
+
+
+
