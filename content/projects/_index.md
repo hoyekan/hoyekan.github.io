@@ -7,6 +7,8 @@ _build:
   list: false
 ---
 
+
+
 <!-- 
 
 <style>
@@ -121,6 +123,9 @@ Here are some of the projects I have embarked on.
   </div>
 
 </div>
+
+
+
 
 -->
 
