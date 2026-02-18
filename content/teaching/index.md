@@ -14,5 +14,8 @@ description: "Teaching experience."
   - GEOP 102 Essentials of Geophysics (Spring 2023)
 - **Masters**
   - GEOP 510 Seismic Data Analysis (Fall 2024)
+    - Instructor: Prof Abdullatif A. Al-Shuhail
+  - GEOP 510 Seismic Data Analysis (Fall 2025)
 - **Ph.D.**
-  - GEOP 604 Geophysical Signal Analysis (Spring 2024) 
+  - GEOP 604 Geophysical Signal Analysis (Spring 2024)
+  - GEOP 604 Geophysical Signal Analysis (Spring 2026) 
