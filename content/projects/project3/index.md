@@ -11,7 +11,7 @@ author: ["Oyekan Hammed"]
 
 description: "MarchenCode"
 
-summary: "MarchenCode contains Python code to compute the Green's functions from single-sided surface reflectivity data. It also contains code to perform Marchenko-based imaging using decomposed Green’s functions (upgoing)." 
+summary: "MarchenCode contains GPU-optimized Python code to compute the Green's functions from single-sided surface reflectivity data. It also contains code to perform Marchenko-based imaging using decomposed Green’s functions (upgoing)." 
 
 cover:
     image: "marchenko.png"
@@ -25,13 +25,11 @@ cover:
 
 ##### Download <br>
 
-The input files used in the code below can be downloaded [here](https://drive.google.com/drive/folders/1SOQUvALC9upk8hrCzLSN_JkUvkq5ezh_?usp=sharing). The `DATA` folder contains two sub-folders:  
+The data used in the code below can be downloaded [here](https://drive.google.com/drive/folders/1SOQUvALC9upk8hrCzLSN_JkUvkq5ezh_?usp=sharing). The directory has two sub-folders:  
 - `DAT` folder containing files with `.dat` extensions  
 - `MAT` folder containing files with `.mat` extensions  
 
-The code below uses files from the `MAT` folder. The files in the `DAT` folder are the original data provided by the authors.  
-
-**Note:** Users of the Python code below do not need to run the `data_preparation()` function unless they want to work with `.npy` files.  `data_preparation()` function load the `.dat` files in `DAT`, reshape appropriately, and save to `.mat` and `.npy` format. 
+The code below uses data from the `MAT` folder.
 
 ---
 
