@@ -65,7 +65,7 @@ A look at the output from the tqdm (**taqaddum**, which mean progress in arabic)
 
 1. There are 64 iterations..
 
-2. **Total Runtime**: 0 hours, 24 minutes, and 06 seconds.
+2. **Total Runtime**: 0 hours, 23 minutes, and 06 seconds.
 
 3. **Per-Iteration Time**: ~22.04 seconds per point.
 
