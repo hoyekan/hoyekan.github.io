@@ -41,7 +41,7 @@ The code below uses data from the `MAT` folder.
 
 ##### Abstract
 
-*MarchenCode* contains Python code to compute the Green's functions from single-sided surface reflectivity data. Learners will also find code to perform Marchenko-based imaging using decomposed Green’s functions (upgoing). I embarked on this project in an effort to understand the Marchenko method. For learners proficient in MATLAB, you can download the original version of the code in MATLAB [here](https://wiki.seg.org/wiki/Software:Marchenko_for_imaging) by [`Angus Lomas and Andrew Curtis`](https://www.geos.ed.ac.uk/~acurtis/assets/Lomas_Curtis_Geop_March_2019.pdf)
+*MarchenCode* contains GPU-optimized Python code to compute the Green's functions from single-sided surface reflectivity data. Learners will also find code to perform Marchenko-based imaging using decomposed Green’s functions (upgoing). I embarked on this project in an effort to understand the Marchenko methods. For learners proficient in MATLAB, you can download the original version of the code in MATLAB [here](https://wiki.seg.org/wiki/Software:Marchenko_for_imaging) by [`Angus Lomas and Andrew Curtis`](https://www.geos.ed.ac.uk/~acurtis/assets/Lomas_Curtis_Geop_March_2019.pdf)
 
 ---
 
@@ -61,15 +61,15 @@ The code below uses data from the `MAT` folder.
 
 ![](marchenko4.png)
 
-A look at the output from the tqdm (**taqaddum**, which mean progress in arabic) progress bar `132/132 [36:28:28<00:00, 994.76s/it]` indicates:
+A look at the output from the tqdm (**taqaddum**, which mean progress in arabic) progress bar `64/64 [23:06<00:00, 22.04s/it]` indicates:
 
-1. There are 132 iterations..
+1. There are 64 iterations..
 
-2. **Total Runtime**: 36 hours, 28 minutes, and 28 seconds (extremely slow).
+2. **Total Runtime**: 0 hours, 24 minutes, and 06 seconds.
 
-3. **Per-Iteration Time**: ~994.76 seconds (16.6 min) per point, indicating inefficiency.
+3. **Per-Iteration Time**: ~22.04 seconds per point.
 
-The progress bar reveals the computation is **`super slow`**. It should be noted that the imaging grid does not include all the full coordinates. The imaging grid ranges from 400m - 2500m (x position) and 200m - 1600m (z position) at 16m spacing. So, interested learners should consider improving the performance of the code significantly.
+<!--The progress bar reveals the computation is **`super slow`**. It should be noted that the imaging grid does not include all the full coordinates. The imaging grid ranges from 400m - 2500m (x position) and 200m - 1600m (z position) at 16m spacing. So, interested learners should consider improving the performance of the code significantly.-->
 
 
 ##### Key Reference
