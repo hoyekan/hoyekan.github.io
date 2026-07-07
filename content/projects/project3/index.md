@@ -35,9 +35,10 @@ The code below uses data from the `MAT` folder.
 
 <!--+ [Green Function Estimation 1](/projects/project3/Marchenko.ipynb)-->
 <!--+ [Green Function Estimation 1](https://raw.githubusercontent.com/hoyekan/hoyekan.github.io/main/content/projects/project3/Marchenko.ipynb)-->
-+ [Green Function Estimation 1](https://github.com/hoyekan/hoyekan.github.io/blob/main/content/projects/project3/Marchenko.ipynb)
-+ [Green Function Estimation 2](/projects/project3/marchenko_modular.py)
-+ [Marchenko Imaging](/projects/project3/marchenko_imaging.py)
++ [Green Function Estimation 1](https://github.com/hoyekan/hoyekan.github.io/blob/main/content/projects/project3/marchenko_gpu_optimized.ipynb)
++ [Green Function Estimation 1](https://github.com/hoyekan/hoyekan.github.io/blob/main/content/projects/project3/marchenko_imaging_gpu_optimized.ipynb)
+<!--+ [Green Function Estimation 2](/projects/project3/marchenko_modular.py)-->
+<!--+ [Marchenko Imaging](/projects/project3/marchenko_imaging.py)-->
 
 ---
 
