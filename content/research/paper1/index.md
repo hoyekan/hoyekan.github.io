@@ -44,7 +44,6 @@ The objective function formulated for the inversion process includes data misfit
 
 We validated our approach using synthetic and real DC resistivity data. The synthetic tests demonstrated accurate reconstruction of subsurface anomalies, while the real data application successfully identified fault zones consistent with prior studies. The proposed hybrid optimization algorithm significantly enhances the resolution of subsurface structures and improves geophysical data inversion practices by effectively balancing exploration and refinement phases, optimizing computation time, and ensuring precise model delineation.
 
-
 ---
 
 <!--##### Figure 5: Display and comparison of the (a) synthetic positive anomaly DC resistivity model, (b) positive anomaly inverted resistivity model, (c) synthetic negative anomaly DC resistivity model, and (d) negative anomaly inverted resistivity model.-->
