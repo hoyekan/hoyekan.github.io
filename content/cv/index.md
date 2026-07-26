@@ -14,4 +14,7 @@ description: ""
 
   
 ##### GRANTS & AWARDS
++ KFUPM International Graduate Scholarship (2022)
++ Stipendium Hungaricum Bilateral Scholarship (2022)
++ University undergraduate scholarship (2016 - 2019)
 
