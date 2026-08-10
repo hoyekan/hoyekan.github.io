@@ -24,7 +24,7 @@ cover:
 ##### Download
 
 + [Dispersion and Attenuation of Love Waves in a Stack of N Isotropic Viscoelastic Layers over a Half-Space – A Thomson–Haskell Propagator Matrix Approach](/projects/project4/dispersion_love_waves_thomson_haskell.pdf)
-+ [Code](/projects/project4/Complex_Velocity_Method.py)
++ [Code](https://github.com/hoyekan/hoyekan.github.io/blob/main/content/projects/project4/Complex_Velocity_Method.py)
 
 ---
 
