@@ -49,4 +49,6 @@ The tutorials in this repository aim to bridge that gap. As such, a junior or se
 + [P-SV Wave Reflection and Transmission Coefficients - Zoeppritz Equation Derivation](P_SV_Wave_Reflection_and_Transmission_Coefficients.pdf)
 + [Rayleigh Wave in Homogeneous Half Space](Rayleigh_Wave_in_Homogeneous_Half_Space.pdf)
 + [Sensitivity Kernel of Acoustic Wave Equation](Sensitivity_Kernel_of_Acoustic_Wave_Equation.pdf)
++ [Rayleigh Wave in Homogeneous Half Space](Rayleigh_Wave_in_Homogeneous_Half_Space.pdf)
++ [PML Implementation for 2D Wave Equation](PML_Implementation_for_2D_Wave_Equation.pdf)
 
